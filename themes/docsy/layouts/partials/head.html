@@ -16,7 +16,6 @@
 {{- template "_internal/schema.html" . -}}
 {{- template "_internal/twitter_cards.html" . -}}
 {{ if eq (getenv "HUGO_ENV") "production" }}
-{{ partial "ga.html" . }}
 {{ template "_internal/google_analytics_async.html" . }}
 {{ end }}
 {{ partialCached "head-css.html" . "asdf" }}
