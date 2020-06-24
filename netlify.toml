@@ -3,8 +3,8 @@
 
 # Default build settings
 [build]
-  publish = "userguide/public"
-  command = "cd userguide && hugo --gc --themesDir ../.."
+  publish = "public"
+  command = "hugo --gc --themesDir ../.."
 
 # "production" environment specific build settings
 [build.environment]
