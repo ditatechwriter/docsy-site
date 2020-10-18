@@ -1,7 +1,13 @@
 ---
-title: "Content and Customization"
-linkTitle: "Content and Customization"
+title: "Static Site Generators"
+linkTitle: "Static Site Generators"
 weight: 3
 description: >
-  How to add content to and customize your Docsy site.
+  Find out how to use various SSGs.
 ---
+
+{{% pageinfo %}}
+This section is about setting up various static site generators.
+{{% /pageinfo %}}
+
+In these tutorials I will share my experience in setting up SSG such as Jekyll, Hugo, etc.
