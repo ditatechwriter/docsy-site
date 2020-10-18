@@ -66,11 +66,20 @@ id = "UA-162550995-23"
 
 [languages]
 [languages.en]
-title = "Docsy"
+title = "Documentation Portal"
 description = "Docsy does docs"
 languageName ="English"
+contentDir = "content/en"
 # Weight used for sorting.
 weight = 1
+
+[languages.ua]
+title = "Портал з документацією"
+description = "Сайт з документацією для технічних письменників"
+languageName ="Українська"
+contentDir = "content/ua"
+# Weight used for sorting.
+weight = 2
 
 [markup]
   [markup.goldmark]
@@ -155,21 +164,21 @@ enable = true
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
- # [[params.links.user]]
-	# name = "User mailing list"
-	# url = "https://groups.google.com/forum/#!forum/docsy-users"
-	# icon = "fa fa-envelope"
-        # desc = "Discussion and help from your fellow users"
-# [[params.links.user]]
-	# name ="Twitter"
-	# url = "https://twitter.com/docsydocs"
-	# icon = "fab fa-twitter"
-        # desc = "Follow us on Twitter to get the latest news!"
-# [[params.links.user]]
-	# name = "Stack Overflow"
-	# url = "https://example.org/stack"
-	# icon = "fab fa-stack-overflow"
-        # desc = "Practical questions and curated answers"
+[[params.links.user]]
+	name = "Send email"
+	url = "mailto:ivancheban@gmail.com"
+	icon = "fa fa-envelope"
+        desc = "Contact me via email"
+[[params.links.user]]
+	name ="LinkedIn"
+	url = "https://linkedin.com/in/ivan-cheban-a24b576"
+	icon = "fab fa-linkedin-in"
+        desc = "My LinkedIn profile"
+[[params.links.user]]
+	name = "Telegram"
+	url = "http://t.me/ivan_cheban"
+	icon = "fab fa-telegram"
+        desc = "Practical questions and curated answers"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
