@@ -69,17 +69,15 @@ id = "UA-162550995-23"
 title = "Documentation Portal"
 description = "Docsy does docs"
 languageName ="English"
-contentDir = "content/en"
 # Weight used for sorting.
 weight = 1
-
 [languages.ua]
 title = "Портал з документацією"
 description = "Сайт з документацією для технічних письменників"
 languageName ="Українська"
 contentDir = "content/ua"
-# Weight used for sorting.
-weight = 2
+time_format_default = "02.01.2006"
+time_format_blog = "02.01.2006"
 
 [markup]
   [markup.goldmark]
