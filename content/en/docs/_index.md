@@ -1,4 +1,3 @@
-
 ---
 title: "Technical Writer's Tools"
 linkTitle: "Documentation"

@@ -1,13 +1,13 @@
 ---
-title: "Static Site Generators"
-linkTitle: "Static Site Generators"
+title: "Генератори статичних сайтів"
+linkTitle: "Генератори статичних сайтів"
 weight: 3
 description: >
-  Find out how to use various SSGs.
+  Дізнайтеся, як використовувати різноманітні генератори статичних сайтів.
 ---
 
 {{% pageinfo %}}
-This section is about setting up various static site generators.
+У цьому розділі йдеться про налаштування різноманітних генераторів статичних сайтів.
 {{% /pageinfo %}}
 
-In these tutorials I will share my experience in setting up SSG such as Jekyll, Hugo, etc.
+У циї інструкціях я розповім про мій досвід налаштування генераторів статичних сайтів: Jekyll, Hugo тощо.
