@@ -3,117 +3,117 @@ title: "Jekyll"
 linkTitle: "Jekyll"
 weight: 1
 description: >
-  When I first started exploring the CI/CD and the SSGs, the first generator that I learned was Jekyll. I used [Getting started with the Documentation Theme for Jekyll](https://idratherbewriting.com/documentation-theme-jekyll/) by Tom Johnson, the famous guru of technical writing known by his [I'd Rather Be Writing blog](https://idratherbewriting.com/).
-  So without too many words, let's start building our first documentation portal using Tom's Jekyll theme. I will try to explain even the evident things.
+  Коли я вперше почав вивчати CI / CD та SSG, першим генератором, про який я дізнався, був Jekyll. Я використав [Початок роботи з темою документації для Jekyll](https://idratherbewriting.com/documentation-theme-jekyll/) Тома Джонсона, відомого гуру технічного письма, відомого завдяки своєму [блогу I'd Rather Be Writing](https://idratherbewriting.com/).
+  Тож, без зайвих слів, давайте створимо наш перший портал документації, використовуючи тему Тома для Jekyll. Я спробую пояснити навіть очевидні речі.
 ---
 
 {{% pageinfo %}}
-Our goal is to build and publish the documentation site using Jekyll and Netlify. The end result will look like this: https://sample-jekyll.netlify.app
+Наша мета - створити та опублікувати сайт документації за допомогою Jekyll та Netlify. Кінцевий результат буде виглядати так: https://sample-jekyll.netlify.app
 {{% /pageinfo %}}
 
-## Download the theme from the GitHub repo
+## Завантажте тему з репозиторію GitHub
 
-1. Sign up for GitHub.
+1. Зареєструйтеся на GitHub.
 
 ![img](/docs/img/sign-up-GitHub.png)
 
-2. If you already have the account there, sign in.
+2. Якщо у вас вже є обліковий запис, увійдіть.
 
 ![img](/docs/img/sign-in-GitHub.png)
 
-3. Go to [Tom's repository](https://github.com/tomjoht/documentation-theme-jekyll).
+3. Перейдіть до [репозиторія Тома](https://github.com/tomjoht/documentation-theme-jekyll).
 
 ![img](/docs/img/tom-repo.png)
 
-4. Click the **Code** button and select **Download ZIP**.
+4. Натисніть кнопку **Code** і виберіть **Download ZIP**.
 
 ![img](/docs/img/download-zip.png)
 
-5. Save the ZIP file to your computer and unzip the contents where you like. Now you have the folder with code and content. Let's proceed with building our documentation site from all this.
+5. Збережіть ZIP-файл на своєму комп’ютері та розпакуйте вміст, де вам заманеться. Тепер у вас є папка з кодом та вмістом. Давайте приступимо до створення нашого сайту з усього цього.
 
 ---
 
-## Install Ruby on Windows
+## Встановіть Ruby на Windows
 
-> Before we install Jekyll that compiles our site, we need to install Ruby. Jekyll is a Ruby-based program and needs Ruby to run.
+> Перш ніж ми встановимо Jekyll, який компілює наш сайт, нам потрібно встановити Ruby. Jekyll — це програма на основі Ruby, для запуску якої потрібен Ruby.
 
-1. Go to [RubyInstaller for Windows](https://rubyinstaller.org/downloads/).
-2. Install the recommended **Ruby+Devkit 2.6.X (x64)** version.
+1. Перейдіть до [RubyInstaller for Windows](https://rubyinstaller.org/downloads/).
+2. Встановіть рекомендовану  версію **Ruby+Devkit 2.6.X (x64)**.
 
 ![img](/docs/img/ruby-installer.png)
 
-3. Install everything by default.
+3. Встановіть все за замовчуванням.
 
 ![img](/docs/img/installation-ruby.png)
 
-3. When the installation completes, you see this command prompt screen. Press `Enter` two times when prompted.
+3. Після завершення встановлення ви побачите цей екран командного рядка. Натисніть `Enter` двічі, коли потрібно буде підтвердити вибір.
 
 ![img](/docs/img/ruby-installed.png)
 
-4. When the installation in the command prompt exits, let's assume that we have Ruby installed. If you want to make sure, open the command prompt and type `ruby -v` and press `Enter`.
+4. Коли інсталяція в командному рядку завершиться, припустимо, що ми встановили Ruby. Якщо ви хочете переконатися, відкрийте командний рядок і введіть `ruby -v` і натисніть `Enter`.
 
 ![img](/docs/img/check-ruby-version.png)
 
 ---
 
-## Install Jekyll
+## Встановіть Jekyll
 
-1. To install Jekyll, enter `gem install jekyll` in the command prompt and press `Enter`.
+1. Щоб встановити Jekyll, введіть `gem install jekyll` у командному рядку та натисніть `Enter`.
 
-2. Check if Jekyll has been installed properly: enter `jekyll -v` and press `Enter`.
+2. Перевірте, чи правильно встановлено Jekyll: введіть `jekyll -v` і натисніть `Enter`.
 
 ![img](/docs/img/check-jekyll-version.png)
 
 ---
 
-## Install Bundler
+## Встановіть Bundler
 
-1. Browse to the directory where you downloaded the Documentation theme for Jekyll.
+1. Перейдіть до каталогу, куди ви завантажили проект для Jekyll.
 
-2. Delete the existing `Gemfile` and `Gemfile.lock` files.
+2. Видаліть існуючі файли `Gemfile` і `Gemfile.lock`.
 
 ![img](/docs/img/project-folder.png)
 
-### Change directory
+### Змініть шлях до проекту
 
-First, you need to change the directory in the Command Prompt.
+По-перше, вам потрібно змінити каталог у командному рядку.
 
-1. In your file explorer, copy the path to the unzipped folder with your project.
+1. У провіднику скопіюйте шлях до розпакованої папки з вашим проектом.
 
 ![img](/docs/img/path-to-project-folder.png)
 
-2. In the Command prompt, enter `cd` and right-click to paste the copied path.
+2. У командному рядку введіть `cd` та клацніть правою кнопкою миші, щоб вставити скопійований шлях.
 
-3. Press `Enter` to change the directory. Now you can execute commands in the project directory.
+3. Натисніть `Enter`, щоб змінити каталог. Тепер ви можете виконувати команди в каталозі проекту.
 
 ![img](/docs/img/paste-path-command-prompt.png)
 
 ---
 
-### Install Bundler
+### Встановіть Bundler
 
-1. To install Bundler, enter `gem install bundler` and press `Enter`.
+1. Щоб встановити Bundler, введіть `gem install bundler` і натисніть `Enter`.
 
 ![img](/docs/img/gem-install-bundler.png)
 
-2. Enter the following commands:
+2. Введіть такі команди:
 
-```powershell
+```
 bundle init
 bundle install
 ```
 
 ![img](/docs/img/bundle-init-bundle-install.png)
 
-These commands created new `Gemfile` files in your project folder.
+Ці команди створили нові файли `Gemfile` у папці проекту.
 
-3. Open the `Gemfile` with Notepad.
+3. Відкрийте `Gemfile` за допомогою Блокнота.
 
 ![img](/docs/img/gemfile.png)
 
-4. Delete everything in this file.
+4. Видаліть усе в цьому файлі.
 
-5. Enter the following data and save the file.
+5. Введіть наступні дані та збережіть файл.
 
 ```
 source "https://rubygems.org"
@@ -125,28 +125,28 @@ gem "jekyll"
 
 ---
 
-## Build the site
+## Скомпілюйте сайт
 
-To build your Jekyll site locally:
+Щоб скомпілювати свій сайт Jekyll локально:
 
-1. Change the directory in the Command Prompt: `cd documentation-theme-jekyll-gh-pages`.
-
-
-2. Enter `jekyll serve`.
+1. Змініть каталог в командному рядку: `cd documentation-theme-jekyll-gh-pages`.
 
 
-3. To access the site locally, copy the address from the Command Prompt: [http://127.0.0.1:4000](http://127.0.0.1:4000/)
+2. Уведіть `jekyll serve`.
+
+
+3. Щоб отримати доступ до сайту локально, скопіюйте адресу з командного рядка: [http://127.0.0.1:4000](http://127.0.0.1:4000/)
 
 ![img](/docs/img/jekyll-serve.png)
 
-4. Paste the address in your browser and you will see the site.
+4. Вставте адресу у свій браузер, і ви побачите сайт.
 
 ![img](/docs/img/site-built-locally.png)
 
-You can access all the site content locally from the project folder.
+Ви можете отримати доступ до всього вмісту сайту локально з папки проекту.
 
 :::note
-To stop the local server where your site is served, press `Ctrl+C` in the Command Prompt.
+Щоб зупинити локальний сервер, на якому запущено ваш сайт, натисніть `Ctrl+C` в командному рядку.
 :::
 
 ---
