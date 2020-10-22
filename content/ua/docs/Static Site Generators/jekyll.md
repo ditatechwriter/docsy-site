@@ -14,13 +14,9 @@ description: >
 ## Завантажте тему з репозиторію GitHub
 
 1. Зареєструйтеся на GitHub.   
-
 ![img](/docs/img/sign-up-GitHub.png)  
-
 2. Якщо у вас вже є обліковий запис, увійдіть.  
-
 ![img](/docs/img/sign-in-GitHub.png)  
-
 3. Перейдіть до [репозиторія Тома](https://github.com/tomjoht/documentation-theme-jekyll).
 
 ![img](/docs/img/tom-repo.png)
