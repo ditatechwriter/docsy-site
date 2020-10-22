@@ -38,21 +38,22 @@ description: >
 > Перш ніж ми встановимо Jekyll, який компілює наш сайт, нам потрібно встановити Ruby. Jekyll — це програма на основі Ruby, для запуску якої потрібен Ruby.
 
 1. Перейдіть до [RubyInstaller for Windows](https://rubyinstaller.org/downloads/).
+
 2. Встановіть рекомендовану  версію **Ruby+Devkit 2.6.X (x64)**.
 
-![img](/docs/img/ruby-installer.png)
+    ![img](/docs/img/ruby-installer.png)
 
 3. Встановіть все за замовчуванням.
 
-![img](/docs/img/installation-ruby.png)
+    ![img](/docs/img/installation-ruby.png)
 
-3. Після завершення встановлення ви побачите цей екран командного рядка. Натисніть `Enter` двічі, коли потрібно буде підтвердити вибір.
+4. Після завершення встановлення ви побачите цей екран командного рядка. Натисніть `Enter` двічі, коли потрібно буде підтвердити вибір.
 
-![img](/docs/img/ruby-installed.png)
+    ![img](/docs/img/ruby-installed.png)
 
-4. Коли інсталяція в командному рядку завершиться, припустимо, що ми встановили Ruby. Якщо ви хочете переконатися, відкрийте командний рядок і введіть `ruby -v` і натисніть `Enter`.
+5. Коли інсталяція в командному рядку завершиться, припустимо, що ми встановили Ruby. Якщо ви хочете переконатися, відкрийте командний рядок і введіть `ruby -v` і натисніть `Enter`.
 
-![img](/docs/img/check-ruby-version.png)
+    ![img](/docs/img/check-ruby-version.png)
 
 ---
 
@@ -62,7 +63,7 @@ description: >
 
 2. Перевірте, чи правильно встановлено Jekyll: введіть `jekyll -v` і натисніть `Enter`.
 
-![img](/docs/img/check-jekyll-version.png)
+    ![img](/docs/img/check-jekyll-version.png)
 
 ---
 
@@ -72,7 +73,7 @@ description: >
 
 2. Видаліть існуючі файли `Gemfile` і `Gemfile.lock`.
 
-![img](/docs/img/project-folder.png)
+    ![img](/docs/img/project-folder.png)
 
 ### Змініть шлях до проекту
 
@@ -80,13 +81,13 @@ description: >
 
 1. У провіднику скопіюйте шлях до розпакованої папки з вашим проектом.
 
-![img](/docs/img/path-to-project-folder.png)
+    ![img](/docs/img/path-to-project-folder.png)
 
 2. У командному рядку введіть `cd` та клацніть правою кнопкою миші, щоб вставити скопійований шлях.
 
 3. Натисніть `Enter`, щоб змінити каталог. Тепер ви можете виконувати команди в каталозі проекту.
 
-![img](/docs/img/paste-path-command-prompt.png)
+    ![img](/docs/img/paste-path-command-prompt.png)
 
 ---
 
@@ -94,7 +95,7 @@ description: >
 
 1. Щоб встановити Bundler, введіть `gem install bundler` і натисніть `Enter`.
 
-![img](/docs/img/gem-install-bundler.png)
+    ![img](/docs/img/gem-install-bundler.png)
 
 2. Введіть такі команди:
 
@@ -103,13 +104,13 @@ bundle init
 bundle install
 ```
 
-![img](/docs/img/bundle-init-bundle-install.png)
+    ![img](/docs/img/bundle-init-bundle-install.png)
 
-Ці команди створили нові файли `Gemfile` у папці проекту.
+    Ці команди створили нові файли `Gemfile` у папці проекту.
 
 3. Відкрийте `Gemfile` за допомогою Блокнота.
 
-![img](/docs/img/gemfile.png)
+    ![img](/docs/img/gemfile.png)
 
 4. Видаліть усе в цьому файлі.
 
@@ -121,7 +122,7 @@ source "https://rubygems.org"
 gem "jekyll"
 ```
 
-![img](/docs/img/notepad-edit-gemfile.png)
+    ![img](/docs/img/notepad-edit-gemfile.png)
 
 ---
 
@@ -137,11 +138,11 @@ gem "jekyll"
 
 3. Щоб отримати доступ до сайту локально, скопіюйте адресу з командного рядка: [http://127.0.0.1:4000](http://127.0.0.1:4000/)
 
-![img](/docs/img/jekyll-serve.png)
+    ![img](/docs/img/jekyll-serve.png)
 
 4. Вставте адресу у свій браузер, і ви побачите сайт.
 
-![img](/docs/img/site-built-locally.png)
+    ![img](/docs/img/site-built-locally.png)
 
 Ви можете отримати доступ до всього вмісту сайту локально з папки проекту.
 
@@ -180,7 +181,7 @@ gem "jekyll"
 
 1. Встановіть клієнт Git з його [офіційного сайту](https://git-scm.com/).
 
-![img](/docs/img/download-git-client.png)
+    ![img](/docs/img/download-git-client.png)
 
 2. Встановіть все за замовчуванням. Ви можете закрити вікно клієнта Git.
 
@@ -192,11 +193,11 @@ gem "jekyll"
 
 2. Виберіть **File** > **Open Folder**.
 
-![img](/docs/img/open-project-folder-vscode.png)
+    ![img](/docs/img/open-project-folder-vscode.png)
 
 3. Відкрийте папку проекта.
 
-![img](/docs/img/open-project-folder.png)
+    ![img](/docs/img/open-project-folder.png)
 
 Тепер ви побачите вміст папки в редакторі VSCode. Якщо відкрити папку із вмістом і натиснути файл **.md**, ви побачите розмітку файла.
 
@@ -210,15 +211,15 @@ gem "jekyll"
 
 1. Перейдіть до розділу Source Control у VSCode і натисніть кнопку **Publish to GitHub**.
 
-![img](/docs/img/publish-to-github.png)
+    ![img](/docs/img/publish-to-github.png)
 
 2. Виберіть **Publish to GitHub public repository**.
 
-![img](/docs/img/publish-to-public-repository.png)
+    ![img](/docs/img/publish-to-public-repository.png)
 
 3.Виберіть **Open in GitHub**, щоб відкрити щойно створений репозиторий проекта на GitHub.
 
-![img](/docs/img/open-in-github.png)
+    ![img](/docs/img/open-in-github.png)
 
 Ви побачите структуру папок вашого проекта. Тепер ваша локальна папка синхронізується із хмарним сервером GitHub. Кожну зміна, яку ви внесете локально, буде синхронізовано з сервером GitHub.
 
@@ -232,47 +233,47 @@ gem "jekyll"
 
 1. Зареєструйтесь у [Netlify](https://www.netlify.com/).
 
-![img](/docs/img/netlify-signup.png)
+    ![img](/docs/img/netlify-signup.png)
 
-Або увійдіть, якщо у вас вже є обліковий запис.
+    Або увійдіть, якщо у вас вже є обліковий запис.
 
 2. Натисніть кнопку **New site from Git**.
 
-![img](/docs/img/new-site-from-git.png)
+    ![img](/docs/img/new-site-from-git.png)
 
 3. Виберіть **GitHub** як провайдера Git.
 
-![img](/docs/img/connect-to-github.png)
+    ![img](/docs/img/connect-to-github.png)
 
 4. Дозвольте доступ Netlify до вашого репозиторія на GitHub.
 
-Ви побачите список своїх репозиторіїв.
+    Ви побачите список своїх репозиторіїв.
 
 5. Виберіть репозиторій, який ви створили в попередньому кроці.
 
-![img](/docs/img/pick-repository.png)
+    ![img](/docs/img/pick-repository.png)
 
 6. Виберіть **Deploy site**.
 
-![img](/docs/img/deploy-settings.png)
+    ![img](/docs/img/deploy-settings.png)
 
-Ви побачите, як Netlify компілює ваш сайт з якоюсь кумедною назвою.
+    Ви побачите, як Netlify компілює ваш сайт з якоюсь кумедною назвою.
 
-![img](/docs/img/deploy-progress.png)
+    ![img](/docs/img/deploy-progress.png)
 
 {{< alert title="Note" >}}Компіляція вашого сайту вперше займає кілька хвилин. Наберіться терпіння. Коли компіляція завершиться, ви побачите статус **Published**.{{< /alert >}}
 
-![img](/docs/img/site-deployed.png)
+    ![img](/docs/img/site-deployed.png)
 
 7. Змініть назву сайту на будь-яку доступну.
 
-![img](/docs/img/change-site-name.png)
+    ![img](/docs/img/change-site-name.png)
 
 8. Клацніть нову назву сайту, щоб відвідати його сторінку. Маєте побачити свій сайт, який буде виглядати так:
 
-[https://sample-jekyll.netlify.app/](https://sample-jekyll.netlify.app/)
+    [https://sample-jekyll.netlify.app/](https://sample-jekyll.netlify.app/)
 
-![img](/docs/img/sample-jekyll-site.png)
+    ![img](/docs/img/sample-jekyll-site.png)
 
 ---
 
