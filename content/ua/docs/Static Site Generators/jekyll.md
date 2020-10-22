@@ -99,10 +99,10 @@ description: >
 
 2. Введіть такі команди:
 
-```
-bundle init
-bundle install
-```
+    ```
+    bundle init
+    bundle install
+    ```
 
     ![img](/docs/img/bundle-init-bundle-install.png)
 
