@@ -11,49 +11,15 @@ description: >
 Наша мета — створити та опублікувати сайт з технічною документацією за допомогою Jekyll та Netlify. Кінцевий результат буде виглядати так: https://sample-jekyll.netlify.app
 {{% /pageinfo %}}
 
-Follow these steps to deploy Kubeflow and open the pipelines dashboard:
-
-1. Follow the guide to [deploying Kubeflow on GCP](/docs/gke/deploy/).
-
-    test 
-
-1. When Kubeflow is running, access the Kubeflow UI at a URL of the form
-  `https://<deployment-name>.endpoints.<project>.cloud.goog/`, as described in the setup
-  guide. The Kubeflow UI looks like this:
-  <img src="/docs/images/central-ui.png" 
-    alt="Kubeflow UI"
-    class="mt-3 mb-3 border border-info rounded">
-
-    If you skipped the Cloud IAP option when deploying Kubeflow, or if you 
-    haven't yet set up your Kubeflow endpoint, you can access Kubeflow via 
-    `kubectl` and port-forwarding:
-    
-    1. Install `kubectl` if you haven't already done so, by running the 
-      following command on the command line: 
-      `gcloud components install kubectl`. For more information, see the 
-      [`kubectl` 
-      documentation](https://kubernetes.io/docs/tasks/tools/install-kubectl/).
-
-    1. Run ```kubectl port-forward -n kubeflow svc/ml-pipeline-ui 8080:80``` and go to `http://localhost:8080/`.
-
-1. Click **Pipelines** to access the pipelines UI. The pipelines UI looks like
-  this:
-  <img src="/docs/images/pipelines-ui.png" 
-    alt="Pipelines UI"
-    class="mt-3 mb-3 border border-info rounded">
-
-## Run a basic pipeline
-
-
 ## Завантажте тему з репозиторію GitHub
 
 1. Зареєструйтеся на GitHub.
 
-    <img src="/docs/img/sign-up-GitHub.png"> 
+    <img src="/docs/img/sign-up-GitHub.png">
 
 1. Якщо у вас вже є обліковий запис, увійдіть.
 
-    ![img](/docs/img/sign-in-GitHub.png) 
+    ![img](/docs/img/sign-in-GitHub.png)
 
 1. Перейдіть до [репозиторія Тома](https://github.com/tomjoht/documentation-theme-jekyll).
    ![img](/docs/img/tom-repo.png)
