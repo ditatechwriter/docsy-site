@@ -18,9 +18,9 @@ description: >
 2. Якщо у вас вже є обліковий запис, увійдіть.  
 ![img](/docs/img/sign-in-GitHub.png)  
 3. Перейдіть до [репозиторія Тома](https://github.com/tomjoht/documentation-theme-jekyll).
-
+<br/>
 ![img](/docs/img/tom-repo.png)
-
+<br/>
 4. Натисніть кнопку **Code** і виберіть **Download ZIP**.
 
 ![img](/docs/img/download-zip.png)
