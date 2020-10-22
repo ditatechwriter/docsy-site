@@ -48,6 +48,7 @@ Follow these steps to deploy Kubeflow and open the pipelines dashboard:
 ## Завантажте тему з репозиторію GitHub
 
 1. Зареєструйтеся на GitHub.
+
   ![img](/docs/img/sign-up-GitHub.png) 
 
 1. Якщо у вас вже є обліковий запис, увійдіть.
