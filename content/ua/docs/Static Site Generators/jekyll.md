@@ -3,23 +3,23 @@ title: "Jekyll"
 linkTitle: "Jekyll"
 weight: 1
 description: >
-  Коли я вперше почав вивчати CI / CD та SSG, першим генератором, про який я дізнався, був Jekyll. Я використав [Початок роботи з темою документації для Jekyll](https://idratherbewriting.com/documentation-theme-jekyll/) Тома Джонсона, відомого гуру технічного письма, відомого завдяки своєму [блогу I'd Rather Be Writing](https://idratherbewriting.com/).
-  Тож, без зайвих слів, давайте створимо наш перший портал документації, використовуючи тему Тома для Jekyll. Я спробую пояснити навіть очевидні речі.
+  Коли я вперше почав вивчати CI / CD та SSG, першим генератором, про який я дізнався, був Jekyll. Я використав [Початок роботи з темою документації для Jekyll](https://idratherbewriting.com/documentation-theme-jekyll/) Тома Джонсона, відомого гуру техрайтерів, відомого завдяки своєму [блогу I'd Rather Be Writing](https://idratherbewriting.com/).
+  Тож, без зайвих слів, давайте створимо наш перший сайт з документацією, використовуючи тему Тома для Jekyll. Я спробую пояснити навіть очевидні речі.
 ---
 
 {{% pageinfo %}}
-Наша мета - створити та опублікувати сайт документації за допомогою Jekyll та Netlify. Кінцевий результат буде виглядати так: https://sample-jekyll.netlify.app
+Наша мета — створити та опублікувати сайт з технічною документацією за допомогою Jekyll та Netlify. Кінцевий результат буде виглядати так: https://sample-jekyll.netlify.app
 {{% /pageinfo %}}
 
 ## Завантажте тему з репозиторію GitHub
 
-1. Зареєструйтеся на GitHub.
+1. Зареєструйтеся на GitHub.   
 
-![img](/docs/img/sign-up-GitHub.png)
+![img](/docs/img/sign-up-GitHub.png)  
 
-2. Якщо у вас вже є обліковий запис, увійдіть.
+2. Якщо у вас вже є обліковий запис, увійдіть.  
 
-![img](/docs/img/sign-in-GitHub.png)
+![img](/docs/img/sign-in-GitHub.png)  
 
 3. Перейдіть до [репозиторія Тома](https://github.com/tomjoht/documentation-theme-jekyll).
 
