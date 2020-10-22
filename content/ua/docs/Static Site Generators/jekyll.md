@@ -116,11 +116,11 @@ description: >
 
 5. Введіть наступні дані та збережіть файл.
 
-```
-source "https://rubygems.org"
+    ```
+    source "https://rubygems.org"
 
-gem "jekyll"
-```
+    gem "jekyll"
+    ```
 
     ![img](/docs/img/notepad-edit-gemfile.png)
 
