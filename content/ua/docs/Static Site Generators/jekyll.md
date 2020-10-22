@@ -15,7 +15,7 @@ Follow these steps to deploy Kubeflow and open the pipelines dashboard:
 
 1. Follow the guide to [deploying Kubeflow on GCP](/docs/gke/deploy/).
 
-    {{% pipelines-compatibility %}} 
+    test 
 
 1. When Kubeflow is running, access the Kubeflow UI at a URL of the form
   `https://<deployment-name>.endpoints.<project>.cloud.goog/`, as described in the setup
