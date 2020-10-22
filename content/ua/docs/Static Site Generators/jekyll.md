@@ -145,130 +145,130 @@ gem "jekyll"
 
 Ви можете отримати доступ до всього вмісту сайту локально з папки проекту.
 
-:::note
+{{% alert title="Примітка" %}}
 Щоб зупинити локальний сервер, на якому запущено ваш сайт, натисніть `Ctrl+C` в командному рядку.
-:::
+{{% /alert %}}
 
 ---
 
 ## CI/CD, GitHub and IDE
 
-> Before you publish your site online, you need to create the CI/CD pipeline. While this term sounds mysterious, there is nothing complicated about it.
+> Перш ніж публікувати свій сайт в Інтернеті, вам потрібно створити процес CI / CD. Хоча цей термін звучить загадково, в цьому немає нічого складного.
 >
-> You need to have an editor on your computer where you will change the code and content of your site. This editor should be able to send the changes that you've made to your GitHub repository. It's like a Dropbox folder that syncs your local folder to the cloud.
+> На комп’ютері потрібно мати редактор, де ви будете змінювати код та вміст свого сайту. Цей редактор повинен мати можливість надсилати внесені вами зміни до вашого репозиторія на GitHub. Це як папка Dropbox, яка синхронізує вашу локальну папку з хмарою.
 >
-> For this example, I will use Visual Studio Code editor/IDE.
+> У цьому прикладі я буду використовувати редактор / інструмент розробки Visual Studio Code.
 
-### VSCode editor
+### Редактор VSCode
 
-Install VSCode from its [official site](https://code.visualstudio.com/download).
+Установіть VSCode з [офіційного сайту](https://code.visualstudio.com/download).
 
 ![img](/docs/img/download-vscode.png)
 
-Useful links for setting up VSCode for viewing and editing Markdown files:
+Корисні посилання для налаштування VSCode для перегляду та редагування файлів Markdown:
 
 * [Using Markdown with Visual Studio Code](https://sciwiki.fredhutch.org/compdemos/vscode_markdown_howto)
 * [How-To Guide: Markdown in Visual Studio Code](https://medium.com/@michael.isprihanto/how-to-guide-markdown-in-visual-studio-code-e8a68cc01f64)
 * [Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
-* [Lana Novikova's materials about VScode](https://gitlab.com/svetlnovikova/webinar/-/blob/master/post-webinar-materials.md) (In Russian)
+* [Матеріали Лани Новікової про VScode](https://gitlab.com/svetlnovikova/webinar/-/blob/master/post-webinar-materials.md) (російською мовою)
 
 ---
 
-### Git client
+### Клієнт Git
 
-> You will also need Git client to connect VSCode to your GitHub repository. It's the same as using Word (in this case VSCode) to write/edit your document and Dropbox desktop client (in this case Git client) to sync your changes to the cloud server.
+> Вам також знадобиться клієнт Git для підключення VSCode до вашого репозиторія на GitHub. Це те саме, що використовувати Word (в даному випадку VSCode) для написання / редагування документа, а десктопний клієнт Dropbox (в даному випадку клієнт Git) для синхронізації змін із хмарним сервером.
 
-1. Install Git client from its [official site](https://git-scm.com/).
+1. Встановіть клієнт Git з його [офіційного сайту](https://git-scm.com/).
 
 ![img](/docs/img/download-git-client.png)
 
-2. Install everything by default. You may close the Git client window.
+2. Встановіть все за замовчуванням. Ви можете закрити вікно клієнта Git.
 
 ---
 
-### View project folder in the editor
+### Перегляньте папку проекта в редакторі
 
-1. Run the VSCode.
+1. Запустіть VSCode.
 
-2. Select **File** > **Open Folder**.
+2. Виберіть **File** > **Open Folder**.
 
 ![img](/docs/img/open-project-folder-vscode.png)
 
-3. Open the project folder.
+3. Відкрийте папку проекта.
 
 ![img](/docs/img/open-project-folder.png)
 
-Now you will see the folder contents in the VSCode editor. If you open the folder with content and click the **.md** file, you will see the file markup.
+Тепер ви побачите вміст папки в редакторі VSCode. Якщо відкрити папку із вмістом і натиснути файл **.md**, ви побачите розмітку файла.
 
 ![img](/docs/img/markdown-markup.png)
 
-Now you can edit the files. But you need to upload this folder to your GitHub repository to sync the changes.
+Тепер ви можете редагувати файли. Але вам потрібно завантажити цю папку до вашого репозиторія GitHub, щоб синхронізувати зміни.
 
 ---
 
-### Upload project folder to GitHub
+### Завантажте папку проекта на GitHub
 
-1. Go to the Source Control section of VSCode and click the **Publish to GitHub** button.
+1. Перейдіть до розділу Source Control у VSCode і натисніть кнопку **Publish to GitHub**.
 
 ![img](/docs/img/publish-to-github.png)
 
-2. Select **Publish to GitHub public repository**.
+2. Виберіть **Publish to GitHub public repository**.
 
 ![img](/docs/img/publish-to-public-repository.png)
 
-3. Select **Open in GitHub** to open your newly created project repository in GitHub.
+3.Виберіть **Open in GitHub**, щоб відкрити щойно створений репозиторий проекта на GitHub.
 
 ![img](/docs/img/open-in-github.png)
 
-You will see your project folder structure. Now your local folder is synced to the GitHub cloud server. Every change that you make locally will be synced to the GitHub server.
+Ви побачите структуру папок вашого проекта. Тепер ваша локальна папка синхронізується із хмарним сервером GitHub. Кожну зміна, яку ви внесете локально, буде синхронізовано з сервером GitHub.
 
 ![img](/docs/img/project-your-repository.png)
 
 ---
 
-## Publish your site
+## Опублікуйте свій сайт
 
-> Now when you have built the Documentation Site locally, you wonder how to publish it online for everyone to see. Although Tom tells how to publish his site on GitHub Pages, I don't recommend this. There are better and easier ways for publishing the sites built with Static Site Generators. For this example I will use Netlify.
+> Тепер, коли ви скомпілювали свій сайт з документацією локально, ви задаєтесь питанням, як опублікувати його в Інтернеті, щоб його бачили всі. Хоча Том розповідає, як опублікувати свій сайт на GitHub Pages, я не рекомендую цього. Існують кращі та простіші способи публікації сайтів, побудованих за допомогою статичних генераторів сайтів. Для цього прикладу я буду використовувати Netlify.
 
-1. Sign up to [Netlify](https://www.netlify.com/).
+1. Зареєструйтесь у [Netlify](https://www.netlify.com/).
 
 ![img](/docs/img/netlify-signup.png)
 
-Or log in, if you already have an account.
+Або увійдіть, якщо у вас вже є обліковий запис.
 
-2. Press the **New site from Git** button.
+2. Натисніть кнопку **New site from Git**.
 
 ![img](/docs/img/new-site-from-git.png)
 
-3. Select **GitHub** as your Git provider.
+3. Виберіть **GitHub** як провайдера Git.
 
 ![img](/docs/img/connect-to-github.png)
 
-4. Authorize Netlify's access to your GitHub repository.
+4. Дозвольте доступ Netlify до вашого репозиторія на GitHub.
 
-You will see the list of your repositories.
+Ви побачите список своїх репозиторіїв.
 
-5. Pick the repository that you've created in the previous step.
+5. Виберіть репозиторій, який ви створили в попередньому кроці.
 
 ![img](/docs/img/pick-repository.png)
 
-6. Select **Deploy site**.
+6. Виберіть **Deploy site**.
 
 ![img](/docs/img/deploy-settings.png)
 
-You will see Netlify deploying your site with some funny name.
+Ви побачите, як Netlify компілює ваш сайт з якоюсь кумедною назвою.
 
 ![img](/docs/img/deploy-progress.png)
 
-{{< alert title="Note" >}}The building of your site for the first time takes several minutes. Be patient. When the build finishes, you will see the **Published** status.{{< /alert >}}
+{{< alert title="Note" >}}Компіляція вашого сайту вперше займає кілька хвилин. Наберіться терпіння. Коли компіляція завершиться, ви побачите статус **Published**.{{< /alert >}}
 
 ![img](/docs/img/site-deployed.png)
 
-7. Change the site name to something more relevant.
+7. Змініть назву сайту на будь-яку доступну.
 
 ![img](/docs/img/change-site-name.png)
 
-8. Click the new site name to visit its page. My test site:
+8. Клацніть нову назву сайту, щоб відвідати його сторінку. Маєте побачити свій сайт, який буде виглядати так:
 
 [https://sample-jekyll.netlify.app/](https://sample-jekyll.netlify.app/)
 
@@ -276,9 +276,9 @@ You will see Netlify deploying your site with some funny name.
 
 ---
 
-## Useful links
+## Корисні посилання
 
-I used some help from these sites:
+Я скористався порадами з цих сайтів:
 
 - [https://www.netlify.com/blog/2020/04/02/a-step-by-step-guide-jekyll-4.0-on-netlify/](https://www.netlify.com/blog/2020/04/02/a-step-by-step-guide-jekyll-4.0-on-netlify/)
 - [https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/](https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/)
