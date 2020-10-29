@@ -130,6 +130,7 @@ To install the Bundler:
     ```
 
     ![img](/docs/img/notepad-edit-gemfile.png)
+    
 ---
 
 ### Build the site
