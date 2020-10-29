@@ -7,12 +7,14 @@ description: >
 ---
 
 {{% pageinfo %}}
-Our goal is to build and publish the one-page online resume site using Jekyll and Vercel. The end result will look like this: https://online-cv-master.vercel.app
+Our goal is to build and publish the one-page online resume site using Jekyll and Vercel. The end result will look like this:
+
+https://online-cv-master.vercel.app
 {{% /pageinfo %}}
 
 ## Prerequisites
 
-> Assume that you’ve installed Jekyll, Git client, and Visual Studio Code editor installed on your computer. If not, read the [Jekyll](https://docsy-site.netlify.app/docs/static-site-generators/jekyll/) article first.
+> Assume that you have Jekyll, Git client, and Visual Studio Code editor installed on your computer. If not, read the [Jekyll](https://docsy-site.netlify.app/docs/static-site-generators/jekyll/) article first.
 
 To check that you have Jekyll installed:
 
@@ -41,6 +43,7 @@ To check that you have Git and VSCode installed:
 > There are a lot of free preconfigured Jekyll themes that you can download from GitHub. You can view the list of themes for static site generators at [JAMstack Themes](https://jamstackthemes.dev/). I used [this theme](https://jamstackthemes.dev/theme/jekyll-online-cv/) for my online resume.
 
 To download the Jekyll theme for your online resume:
+
 1. Go to the theme [GitHub repository](https://github.com/sharu725/online-cv).
 
 2. Select **Code**.
@@ -79,7 +82,7 @@ To edit the `_config.yml` file:
     safe: false
     ```
 
-This is how your _config.yml file should look.
+This is how your `_config.yml` file should look.
 <br/>
 
 ![img](/docs/img/edited-config.png)
@@ -126,6 +129,7 @@ To install the Bundler:
     gem "jekyll"
     ```
 
+    ![img](/docs/img/notepad-edit-gemfile.png)
 ---
 
 ### Build the site
@@ -150,7 +154,7 @@ To build your Jekyll site locally:
 
 > Now that you’ve built the resume site, it’s time to edit its data with your own.
 
-To edit the data in your online resume:
+To edit the data in your resume:
 
 1. In VSCode, open the project folder and select the `data.yml` file.
 
@@ -220,7 +224,7 @@ To publish your site online, you need to deploy it to Vercel.
 
     ![img](/docs/img/deploy-project.png)
 
-    {{< alert title="Note" >}}When you edit the data in the resume, the changes are applied automatically to the site served locally. Refresh the page in your browser to see the changes.{{< /alert >}}
+    {{< alert title="Note" >}}Note: The first project deploy takes several minutes. Be patient.{{< /alert >}}
 
     When the deploy finishes you will see this nice success screen.
 
