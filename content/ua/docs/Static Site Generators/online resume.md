@@ -32,49 +32,49 @@ https://online-cv-master.vercel.app
 
     ![img](/docs/img/git-version.png)
 
-2. Check that you have Visual Studio Code installed.
+2. Переконайтесь, що у вас установлено Visual Studio Code.
 
     ![img](/docs/img/open-vscode.png)
 
 ---
 
-## Download the theme
+## Завантажте тему
 
-> There are a lot of free preconfigured Jekyll themes that you can download from GitHub. You can view the list of themes for static site generators at [JAMstack Themes](https://jamstackthemes.dev/). I used [this theme](https://jamstackthemes.dev/theme/jekyll-online-cv/) for my online resume.
+> Є багато безкоштовних попередньо налаштованих тем Jekyll, які можна завантажити з GitHub. Ви можете переглянути список тем для генераторів статичних сайтів на [JAMstack Themes](https://jamstackthemes.dev/). Я використав [цю тему](https://jamstackthemes.dev/theme/jekyll-online-cv/) для мого онлайн-резюме.
 
-To download the Jekyll theme for your online resume:
+Щоб завантажити тему Jekyll для вашого онлайн-резюме:
 
-1. Go to the theme [GitHub repository](https://github.com/sharu725/online-cv).
+1. Перейдіть до [репозиторію GitHub](https://github.com/sharu725/online-cv) для цієї теми.
 
-2. Select **Code**.
+2. Виберіть **Code**.
 
-3. Select **Download ZIP**.
+3. Виберіть **Download ZIP**.
 
     ![img](/docs/img/download-theme.png)
 
-4. Save the zipped project folder to your computer.
+4. Збережіть архівовану папку проекту на свій комп’ютер.
 
-5. Unzip the folder.
+5. Розпакуйте папку.
 
 ---
 
-## Launch the site locally
+## Запустіть сайт локально
 
-> Before changing the data in this CV, let’s check how the site runs locally on your computer.
+> Перш ніж змінювати дані у цьому резюме, давайте перевіримо, як сайт працює локально на вашому комп’ютері.
 
-### Edit the config file
+### Відредагуйте конфігураційний файл
 
-To edit the `_config.yml` file:
+Щоб відредагувати файл `_config.yml`:
 
-1. Open the project folder in VSCode.
+1. Відкрийте папку проекту у VSCode.
 
-2. Select the `_config.yml` file.
+2. Виберіть файл `_config.yml`.
 
     ![img](/docs/img/config.yml.png)
 
-3. Delete the line: `baseurl: '/online-cv' #change it according to your repository name`.
+3. Видаліть цей рядок: `baseurl: '/online-cv' #change it according to your repository name`.
 
-4. Delete the lines under the # Development Settings.
+4. Видаліть рядки нижче `# Development Settings`.
 
     ```
     port: 4000
@@ -82,30 +82,30 @@ To edit the `_config.yml` file:
     safe: false
     ```
 
-This is how your `_config.yml` file should look.
+Ось як має виглядати ваш файл `_config.yml`.
 <br/>
 
 ![img](/docs/img/edited-config.png)
 
 ---
 
-### Install Bundler
+### Установіть Bundler
 
-To install the Bundler:
+Щоб установити Bundler:
 
-1. In the file explorer, copy the path to the project folder.
+1. У провіднику файлів скопіюйте шлях до папки проекту.
 
-    In my case, it’s `c:\Users\ivanc\online-cv-master`
+    У моєму випадку це `c:\Users\ivanc\online-cv-master`
 
     ![img](/docs/img/project-folder-path.png)
 
-2. In the Command Prompt, change the directory to your project folder path. Press **Enter**.
+2. У командному рядку змініть каталог на шлях до папки проекту. Натисніть **Enter**.
 
     `cd c:\Users\ivanc\online-cv-master\`
 
-3. Enter `gem install bundler` and press **Enter**.
+3. Уведіть `gem install bundler` і натисніть **Enter**.
 
-4. Enter the following commands:
+4. Уведіть такі команди:
 
     ```
     bundle init
@@ -113,15 +113,15 @@ To install the Bundler:
     ```
     ![img](/docs/img/install-bundler.png)
 
-    These commands created new `Gemfile` files in your project folder.
+    Ці команди створили нові файли `Gemfile` у папці проекту.
 
-5. Open the `Gemfile` with Notepad.
+5. Відкрийте `Gemfile` за домогою Блокнота.
 
     ![img](/docs/img/gemfile-edit.png)
 
-6. Delete everything in this file.
+6. Видаліть усе в цьому файлі.
 
-7. Enter the following data and save the file.
+7. Введіть наступні дані та збережіть файл.
 
     ```
     source "https://rubygems.org"
@@ -133,107 +133,109 @@ To install the Bundler:
     
 ---
 
-### Build the site
+### Скомпілюйте сайт
 
-To build your Jekyll site locally:
+Щоб скомпілювати наш сайт за допомогою Jekyll локально:
 
-1. Enter `jekyll serve` and press Enter.
+1. Уведіть `jekyll serve` і натисніть **Enter**.
 
     ![img](/docs/img/jekyll-serve-resume.png)
 
-2. Copy the server address:
+2. Скопіюйте адресу сервера:
     
     [http://127.0.0.1:4000/online-cv/](http://127.0.0.1:4000/online-cv/)
 
-3. Paste it in your browser and you should see your site served locally.
+3. Вставте адресу сервера у свій браузер, і ви побачите, як ваш сайт запуститься локально.
 
     ![img](/docs/img/site-served-locally.png)
 
 ---
 
-## Edit your resume
+## Відредагуйте своє резюме
 
-> Now that you’ve built the resume site, it’s time to edit its data with your own.
+> Тепер, коли ви скомпілювали сайт з резюме, час замінити в ньому дані на власні.
 
-To edit the data in your resume:
+Щоб відредагувати дані у своєму резюме:
 
-1. In VSCode, open the project folder and select the `data.yml` file.
+1. У VSCode відкрийте папку проекту й виберіть файл `data.yml`.
 
     ![img](/docs/img/data.yml.png)
 
-2. Edit the data in the resume with your own.
+2. Замініть дані в резюме на власні.
 
-    {{< alert title="Note" >}}When you edit the data in the resume, the changes are applied automatically to the site served locally. Refresh the page in your browser to see the changes.{{< /alert >}}
+    {{< alert title="Note" >}}Коли ви змінюєте дані в резюме, зміни на сайті, запущеному локально, застосовуються автоматично. Оновіть сторінку у браузері, щоб побачити зміни.{{< /alert >}}
 
 ---
 
-## Publish the site online
+## Опублікуйте сайт в інтернеті
 
-> When you finish editing the site locally, it’s time to publish it online for everybody to see. For this example, I will use another nice platform to deploy and host your site, Vercel. But first you need to upload your project folder to GitHub.
+> Коли ви закінчите редагувати сайт локально, час опублікувати його в інтернеті, щоб його бачили всі. Для цього прикладу я використаю іншу приємну платформу для розгортання та розміщення вашого сайта, Vercel. Але спочатку потрібно завантажити папку проекту на GitHub.
 
-### Publish to GitHub
+### Опублікувати на GitHub
 
-To upload your project folder to GitHub:
+Щоб завантажити папку проекту на GitHub:
 
-1. In VSCode, open the project folder.
+1. У VSCode відкрийте папку проекту.
 
-2. Select the **Source Control** icon.
+2. Виберіть піктограму **Source Control**.
 
     ![img](/docs/img/source-control.png)
 
-3. Select **Publish to GitHub**.
+3. Виберіть **Publish to GitHub**.
 
-4. Select **Publish to GitHub public repository**.
+4. Виберіть **Publish to GitHub public repository**.
 
     ![img](/docs/img/publish-public-repo.png)
 
-    When the project folder has been uploaded to the GitHub repository, you will see this success message.
+    Коли папку проекту буде завантажено до репозиторія GitHub, ви побачите це повідомлення про успішне завершення операції.
 
     ![img](/docs/img/publish-message.png)
 
-5. Select **Open in GitHub** to view your project folder uploaded and synced to the GitHub repository.
+5. Виберіть **Open in GitHub**, щоб переглянути папку проекту, завантажену та синхронізовану з репозиторієм GitHub.
 
     ![img](/docs/img/github-repo.png)
 
 ---
 
-## Deploy to Vercel
+## Публікація сайта за допомогою сервіса Vercel
 
-To publish your site online, you need to deploy it to Vercel.
+Щоб опублікувати свій сайт в інтернеті, скористайтесь сервісом Vercel.
 
-1. Go to [Vercel](https://vercel.com/login).
+1. Перейдіть на сторінку [Vercel](https://vercel.com/login).
 
-2. Select **Continue with GitHub**.
+2. Виберіть **Continue with GitHub**.
 
     ![img](/docs/img/vercel-login.png)
 
-3. Select **Import Project**.
+3. Виберіть **Import Project**.
 
     ![img](/docs/img/import-project.png)
 
-4. Select **Continue** to import your project from GitHub.
+4. Виберіть **Continue**, щоб імпортувати проект із GitHub.
 
     ![img](/docs/img/import-git-repository.png)
 
-5. Provide the link to your GitHub repository and select **Continue**:
+5. Надайте посилання на ваш репозиторій GitHub і виберіть **Continue**:
 
     [https://github.com/ivancheban/online-cv-master](https://github.com/ivancheban/online-cv-master)
 
     ![img](/docs/img/link-to-repo.png)
 
-6. Enter the project name: for example, `online-cv-master`. Select **Deploy**.
+6. Уведіть назву проекту: наприклад, `online-cv-master`. Виберіть **Deploy**.
 
+    {{< alert title="Примітка" >}}Ця назва буде використовуватися в посиланні на ваш сайт з резюме. Адресу вашого сайту можна буде змінити пізнише в налаштуваннях Vercel **Domains**.{{< /alert >}}
+    
     ![img](/docs/img/deploy-project.png)
 
-    {{< alert title="Note" >}}Note: The first project deploy takes several minutes. Be patient.{{< /alert >}}
+    {{< alert title="Примітка" >}}Компіляція проекту займає кілька хвилин. Наберіться терпіння.{{< /alert >}}
 
-    When the deploy finishes you will see this nice success screen.
+    Коли компіляція закінчиться, ви побачите цю веселу заставку про успішне завершення операції.
 
     ![img](/docs/img/successful-deploy.gif)
 
-7.	Select **Visit** to go to your resume site available online.
+7.	Виберіть **Visit**, щоб перейти на сайт з вашим резюме, доступним онлайн.
     
-    You should see your site similar to this:
+    Маєте побачити сайт, подібний до цього:
 
     [https://online-cv-master.vercel.app/](https://online-cv-master.vercel.app/)
 

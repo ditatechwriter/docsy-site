@@ -74,7 +74,7 @@ To edit the `_config.yml` file:
 
 3. Delete the line: `baseurl: '/online-cv' #change it according to your repository name`.
 
-4. Delete the lines under the # Development Settings.
+4. Delete the lines under the `# Development Settings`.
 
     ```
     port: 4000
@@ -137,7 +137,7 @@ To install the Bundler:
 
 To build your Jekyll site locally:
 
-1. Enter `jekyll serve` and press Enter.
+1. Enter `jekyll serve` and press **Enter**.
 
     ![img](/docs/img/jekyll-serve-resume.png)
 
@@ -223,9 +223,11 @@ To publish your site online, you need to deploy it to Vercel.
 
 6. Enter the project name: for example, `online-cv-master`. Select **Deploy**.
 
+    {{< alert title="Note" >}}This name will be used in the link to your site. You can always change the site name in the Vercel settings in **Domains**.{{< /alert >}}
+    
     ![img](/docs/img/deploy-project.png)
 
-    {{< alert title="Note" >}}Note: The first project deploy takes several minutes. Be patient.{{< /alert >}}
+    {{< alert title="Note" >}}The project deploy takes several minutes. Be patient.{{< /alert >}}
 
     When the deploy finishes you will see this nice success screen.
 
