@@ -106,7 +106,7 @@ version = "0.1"
 
 # A link to latest version of the docs. Used in the "version-banner" partial to
 # point people to the main doc site.
-url_latest_version = "https://example.com"
+url_latest_version = "https://docsy-site.netlify.app"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/ivancheban/docsy-site"
@@ -122,13 +122,13 @@ time_format_default = "January 2, 2006"
 rss_sections = ["blog"]
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-# gcs_engine_id = "011217106833237091527:la2vtv2emlw"
+gcs_engine_id = "38c3400f977a1a9e3"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
 
 #Enable offline search with Lunr.js
-offlineSearch = true
+offlineSearch = false
 offlineSearchSummaryLength = 70
 offlineSearchMaxResults = 10
 
