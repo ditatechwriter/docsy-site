@@ -1,34 +1,34 @@
 ---
-title: "Create online CV with Jekyll"
-linkTitle: "Create online CV with Jekyll"
+title: "Створити онлайн-резюме за допомогою Jekyll"
+linkTitle: "Створити онлайн-резюме за допомогою Jekyll"
 weight: 2
 description: >
-  One of my first Jekyll sites was my resume available online. While many HRs and recruiters still prefer the classic PDF, I decided to give the online thing a try. After all, it’s so easy just to send the link to your CV. In this article, I will show you how to create your online CV using Jekyll as a static site generator and Vercel for deploying and hosting your site.
+  Одним із моїх перших проектів на Jekyll було моє резюме у вигляді односторінкового сайта. Хоча багато HR та рекрутерів усе ще віддають перевагу класичному PDF, я вирішив спробувати зробити онлайн-резюме. Зрештою, так просто надіслати посилання на своє резюме. У цій статті я покажу, як створити своє онлайн-резюме, використовуючи Jekyll як генератор статичних сайтів і Vercel для компіляції та розміщення вашого сайта в інтернеті.
 ---
 
 {{% pageinfo %}}
-Our goal is to build and publish the one-page online resume site using Jekyll and Vercel. The end result will look like this:
+Наша мета — створити й опублікувати односторінковий сайт-резюме за допомогою Jekyll і Vercel. Кінцевий результат буде виглядати так:
 
 https://online-cv-master.vercel.app
 {{% /pageinfo %}}
 
-## Prerequisites
+## Передумови
 
-> Assume that you have Jekyll, Git client, and Visual Studio Code editor installed on your computer. If not, read the [Jekyll](https://docsy-site.netlify.app/docs/static-site-generators/jekyll/) article first.
+> Припустимо, що на вашому комп’ютері встановлено Jekyll, клієнт Git та редактор Visual Studio Code. Якщо ні, спочатку прочитайте статтю про [Jekyll](https://docsy-site.netlify.app/docs/static-site-generators/jekyll/) article first.
 
-To check that you have Jekyll installed:
+Щоб перевірити, чи встановлений у вас Jekyll:
 
-1. Open Command Prompt.
+1. Відкрийте командний рядок.
 
     ![img](/docs/img/open-cmd.png)
 
-2. Enter `jekyll -v` and press **Enter**.
+2. Уведіть `jekyll -v` і натисніть **Enter**.
 
     ![img](/docs/img/jekyll-version.png)
 
-To check that you have Git and VSCode installed:
+Щоб перевірити, чи встановлені Git і VSCode:
 
-1. In the Command Prompt, enter `git --version`.
+1. У командному рядку введіть `git --version`.
 
     ![img](/docs/img/git-version.png)
 
