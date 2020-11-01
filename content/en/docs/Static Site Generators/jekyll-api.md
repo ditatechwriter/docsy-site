@@ -9,7 +9,7 @@ description: >
 {{% pageinfo %}}
 Our goal is to build and publish the API documentation site using Jekyll and Vercel. The end result will look like this:
 
-https://online-cv-master.vercel.app
+https://aviator-jekyll-template-master.vercel.app
 {{% /pageinfo %}}
 
 ## Prerequisites
@@ -40,7 +40,7 @@ To check that you have Git and VSCode installed:
 
 ## Download the theme
 
-To download the Jekyll theme for your online resume:
+To download the Jekyll theme for your API documentation site:
 
 1. Go to the theme [GitHub repository](https://github.com/CloudCannon/aviator-jekyll-template).
 
