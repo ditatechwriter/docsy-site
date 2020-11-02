@@ -143,7 +143,7 @@ https://aviator-jekyll-template-master.vercel.app
 
     ![img](/docs/img/site-served-locally-aviator.png)
 
-{{< alert title=Примітка" >}}Щоб зупинити локальний сервер, на якому обслуговується ваш сайт, натисніть `Ctrl+C` у командному рядку.{{< /alert >}}
+{{< alert title="Примітка" >}}Щоб зупинити локальний сервер, на якому обслуговується ваш сайт, натисніть `Ctrl+C` у командному рядку.{{< /alert >}}
 
 ---
 
