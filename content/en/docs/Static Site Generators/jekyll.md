@@ -47,11 +47,11 @@ Our goal is to build and publish the documentation site using Jekyll and Netlify
 
     ![img](/docs/img/installation-ruby.png)
 
-4. When the installation completes, you see this command prompt screen. Press `Enter` two times when prompted.
+4. When the installation completes, you see this command prompt screen. Press **Enter**`** two times when prompted.
 
     ![img](/docs/img/ruby-installed.png)
 
-5. When the installation in the command prompt exits, let's assume that we have Ruby installed. If you want to make sure, open the command prompt and type `ruby -v` and press `Enter`.
+5. When the installation in the command prompt exits, let's assume that we have Ruby installed. If you want to make sure, open the command prompt and type `ruby -v` and press **Enter**.
 
     ![img](/docs/img/check-ruby-version.png)
 
@@ -59,9 +59,9 @@ Our goal is to build and publish the documentation site using Jekyll and Netlify
 
 ## Install Jekyll
 
-1. To install Jekyll, enter `gem install jekyll` in the command prompt and press `Enter`.
+1. To install Jekyll, enter `gem install jekyll` in the command prompt and press **Enter**.
 
-2. Check if Jekyll has been installed properly: enter `jekyll -v` and press `Enter`.
+2. Check if Jekyll has been installed properly: enter `jekyll -v` and press **Enter**.
 
     ![img](/docs/img/check-jekyll-version.png)
 
@@ -85,7 +85,7 @@ First, you need to change the directory in the Command Prompt.
 
 2. In the Command prompt, enter `cd` and right-click to paste the copied path.
 
-3. Press `Enter` to change the directory. Now you can execute commands in the project directory.
+3. Press **Enter** to change the directory. Now you can execute commands in the project directory.
 
     ![img](/docs/img/paste-path-command-prompt.png)
 
@@ -93,7 +93,7 @@ First, you need to change the directory in the Command Prompt.
 
 ### Install Bundler
 
-1. To install Bundler, enter `gem install bundler` and press `Enter`.
+1. To install Bundler, enter `gem install bundler` and press **Enter**.
 
     ![img](/docs/img/gem-install-bundler.png)
 

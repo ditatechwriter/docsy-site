@@ -93,7 +93,7 @@ To download the Jekyll theme for your API documentation site:
 
     ![img](/docs/img/bundle-init-bundle-install-aviator.png)
 
-    These commands created new Gemfile files in your project folder.
+    These commands created new `Gemfile` files in your project folder.
 
 ---
 
