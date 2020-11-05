@@ -12,7 +12,7 @@ description: >
 https://aviator-jekyll-template-master.vercel.app
 {{% /pageinfo %}}
 
-## Prerequisites
+## Попередні умови
 
 > Припустимо, що на вашому комп’ютері встановлено Jekyll, клієнт Git та редактор Visual Studio Code. Якщо ні, спочатку прочитайте статтю про [Jekyll](https://docsy-site.netlify.app/docs/static-site-generators/jekyll/).
 
