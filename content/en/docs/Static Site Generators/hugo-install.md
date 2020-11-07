@@ -24,7 +24,7 @@ To install Chocolatey:
 
     ![img](/docs/img/choco-install.png)
 
-2. Check if you have Chocolate installed: `choco version`
+2. Check if you have Chocolatey installed: `choco version`
 
     ![img](/docs/img/choco-version.png)
 

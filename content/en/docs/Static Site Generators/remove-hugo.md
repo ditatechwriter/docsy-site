@@ -1,6 +1,6 @@
 ---
 title: "How to remove Hugo from Windows"
-linkTitle: "Uninstall Hugo from Windows"
+linkTitle: "Uninstall Hugo"
 weight: 5
 description: >
   Sometimes you need to delete or uninstall Hugo that you've installed on Windows. I failed to find the instructions on the internet. Here's the way to remove Hugo from your computer.
