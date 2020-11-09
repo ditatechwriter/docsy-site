@@ -165,11 +165,7 @@ To upload the project folder to GitHub:
 
 4. Select **Publish to GitHub public repository**.
 
-    ![img](/docs/img/publish-public-repo-aviator.png)
-
-    When the project folder has been uploaded to the GitHub repository, you will see this success message.
-
-    ![img](/docs/img/git-publish-message.png)
+    When the project folder has been uploaded to the GitHub repository, you will see the success message.
 
 5. Select **Open in GitHub** to view your project folder uploaded and synced to the GitHub repository.
 
