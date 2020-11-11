@@ -66,7 +66,7 @@ To set up a new Hugo project on your computer:
 
 4. Open the `exampleSite` folder in `c:\Users\ivanc\docuapi\themes\docuapi\exampleSite\`.
 
-5. Copy everything in the `exampleSite folder` in `c:\Users\ivanc\docuapi\themes\docuapi\exampleSite\` to the root of the project folder in `c:\Users\ivanc\docuapi\`. Replace the existing folders and files when asked.
+5. Copy everything in the `exampleSite` folder in `c:\Users\ivanc\docuapi\themes\docuapi\exampleSite\` to the root of the project folder in `c:\Users\ivanc\docuapi\`. Replace the existing folders and files when asked.
 
     ![img](/docs/img/copy-exampleSite.png)
 
@@ -108,7 +108,7 @@ To edit the Hugo site configuration file:
 
     ![img](/docs/img/config.toml-file.png)
 
-3. Edit the config.toml file.
+3. Edit the `config.toml` file.
 
     ```go
     theme = "docuapi"
