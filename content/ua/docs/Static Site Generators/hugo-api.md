@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Наша мета — опублікувати сайт для документації API, використовуючи тему DocuAPI для генератора статичних сайтів Hugo. Ця тема Hugo заснована на Slate. Кінцевий результат буде схожий на цей сайт:
+Наша мета — опублікувати сайт для документації API, використовуючи тему DocuAPI для генератора статичних сайтів Hugo. Творець цієї теми Hugo надихався відомою темою Slate. Кінцевий результат буде схожий на цей сайт:
 
 https://docuapi-test.netlify.app
 {{% /pageinfo %}}
@@ -16,11 +16,11 @@ https://docuapi-test.netlify.app
 
 1. Переконайтеся, що у вас встановлено Hugo: `hugo version`.
 
-    Якщо на вашому комп’ютері не встановлено Hugo, прочитайте статтю [How to install Hugo on Windows](https://docsy-site.netlify.app/docs/static-site-generators/hugo-install/).
+    Якщо на вашому комп’ютері не встановлено Hugo, прочитайте статтю [Як встановити Hugo на Windows](https://docsy-site.netlify.app/ua/docs/static-site-generators/hugo-install/).
 
 2. Переконайтеся , що у вас встановлено клієнт Git: `git version`.
 
-    Якщо на вашому комп’ютері не встановлено клієнт Git, прочитайте як [встановити клієнт Git](https://docsy-site.netlify.app/docs/static-site-generators/jekyll/#git-client).
+    Якщо на вашому комп’ютері не встановлено клієнт Git, прочитайте як [встановити клієнт Git](https://docsy-site.netlify.app/ua/docs/static-site-generators/jekyll/#клієнт-git).
 
 3. Переконайтесь, що у вас:
 
@@ -149,13 +149,13 @@ https://docuapi-test.netlify.app
 
     ![img](/docs/img/netlify-file.png)
 
-4. Перемістіть файл `netlify.toml` з папки теми у `c:\Users\ivanc\docuapi\themes\docuapi\` до корневої папки проекту `c:\Users\ivanc\docuapi\`.
+4. Перемістіть файл `netlify.toml` з папки теми у `c:\Users\ivanc\docuapi\themes\docuapi\` до кореневої папки проекту `c:\Users\ivanc\docuapi\`.
 
 ### Завантажте папку проекту на GitHub
 
 Щоб завантажити папку проекту на GitHub:
 
-1. У редакторі VSCode, відкрийте папку проекту.
+1. Відкрийте папку проекту в редакторі VSCode.
 
 2. Виберіть піктограму **Source Control**.
 
@@ -207,6 +207,6 @@ https://docuapi-test.netlify.app
 
     ![img](/docs/img/change-name-docuapi.png)
 
-    Ваш сайт вже має бути доступний онлайн. Ось як виглядає мій тестовий сайт с документацією API:
+    Ваш сайт вже має бути доступний онлайн. Ось як виглядає мій тестовий сайт з документацією API:
 
     [https://docuapi-test.netlify.app/](https://docuapi-test.netlify.app/)
