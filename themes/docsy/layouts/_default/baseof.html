@@ -2,10 +2,6 @@
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
   <head>
     {{ partial "head.html" . }}
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/docsearch.js@{{docSearchJSVersion}}/dist/cdn/docsearch.min.css"
-/>
   </head>
   <body class="td-{{ .Kind }}">
     <header>
@@ -18,20 +14,5 @@
       {{ partial "footer.html" . }}
     </div>
     {{ partialCached "scripts.html" . }}
-    <script src="https://cdn.jsdelivr.net/npm/docsearch.js@{{docSearchJSVersion}}/dist/cdn/docsearch.min.js"></script>
-<script>
-  docsearch({
-    // Your apiKey and indexName will be given to you once
-    // we create your config
-    apiKey: 'c8e124426c6da8a9ab599903cedb3d4c',
-    indexName: 'netlify_1ca54c9f-ab29-4a66-a812-5b9ab5fea3ff_master_all',
-    //appId: '<APP_ID>', // Should be only included if you are running DocSearch on your own.
-    // Replace inputSelector with a CSS selector
-    // matching your search input
-    inputSelector: 'div#search',
-    // Set debug to true to inspect the dropdown
-    debug: false,
-  });
-</script>
   </body>
 </html>
