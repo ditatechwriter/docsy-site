@@ -41,5 +41,19 @@
     siteId: '1ca54c9f-ab29-4a66-a812-5b9ab5fea3ff',
     branch: 'master',
     selector: 'div#search',
+    // Optional
+  analytics: true,                              // Enable search analytics
+  hitsPerPage: 5,                               // Amount of results to display
+  poweredBy: true,                              // Controls displaying the logo (mandatory with our FREE plan)
+  placeholder: 'Search...',                     // Input placeholder
+  openOnFocus: true,                            // Open search panel with default search, when focusing input
+
+  // Theme
+  theme: {
+    mark: '#fff',                               // Color of the matching content
+    background: '#23263b',                      // Background Color of the input and the panel
+    selected: '#111432',                        // Background Color of the selected item
+    text: '#d6d6e7'                             // Color of the title of the items
+  }
   });
 </script>
