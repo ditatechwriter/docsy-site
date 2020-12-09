@@ -31,3 +31,15 @@
 {{end}}
 {{ partial "hooks/head-end.html" . }}
 <script src="https://hypothes.is/embed.js" async></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'PBAF3N1U4I',
+    apiKey: '<YOUR_ALGOLIA_SEARCH_API_KEY>',
+    siteId: '1ca54c9f-ab29-4a66-a812-5b9ab5fea3ff',
+    branch: 'master',
+    selector: 'div#search',
+  });
+</script>
