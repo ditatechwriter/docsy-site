@@ -1,5 +1,5 @@
 ---
 title: Search Results
-layout: search1
+layout: search
 ---
 
