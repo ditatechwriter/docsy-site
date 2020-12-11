@@ -128,7 +128,7 @@ rss_sections = ["blog"]
 algolia_docsearch = false
 
 #Enable offline search with Lunr.js
-offlineSearch = false
+offlineSearch = true
 offlineSearchSummaryLength = 70
 offlineSearchMaxResults = 10
 
