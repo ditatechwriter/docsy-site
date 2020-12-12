@@ -110,7 +110,7 @@ To edit the Hugo site configuration file:
 
 3. Edit the `config.toml` file.
 
-    ```toml
+    ```go
     theme = "docuapi"
     # themesdir = "../.."
     languageCode = "en-us"
@@ -136,7 +136,7 @@ To edit the Netlify config:
 
 2. Edit the file.
 
-    ```toml
+    ```go
     [context.production.environment]
     HUGO_VERSION = "0.78.1"
     ```

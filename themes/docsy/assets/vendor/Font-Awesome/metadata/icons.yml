@@ -55,7 +55,6 @@ acquisitions-incorporated:
 ad:
   changes:
     - 5.3.0
-    - 5.10.2
   label: Ad
   search:
     terms:
@@ -109,8 +108,6 @@ adjust:
   changes:
     - '1'
     - 5.0.0
-    - 5.10.2
-    - 5.11.0
   label: adjust
   search:
     terms:
@@ -322,7 +319,6 @@ ambulance:
   label: ambulance
   search:
     terms:
-      - covid-19
       - emergency
       - emt
       - er
@@ -365,7 +361,6 @@ anchor:
   changes:
     - '3.1'
     - 5.0.0
-    - 5.11.0
   label: Anchor
   search:
     terms:
@@ -385,7 +380,6 @@ android:
   changes:
     - '3.2'
     - 5.0.0
-    - 5.12.0
   label: Android
   search:
     terms:
@@ -489,7 +483,6 @@ angle-left:
   changes:
     - '3'
     - 5.0.0
-    - 5.11.0
   label: angle-left
   search:
     terms:
@@ -506,7 +499,6 @@ angle-right:
   changes:
     - '3'
     - 5.0.0
-    - 5.11.0
   label: angle-right
   search:
     terms:
@@ -537,8 +529,6 @@ angle-up:
 angry:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Angry Face
   search:
     terms:
@@ -891,7 +881,6 @@ arrows-alt-h:
 arrows-alt-v:
   changes:
     - 5.0.0
-    - 5.11.0
   label: Alternate Arrows Vertical
   search:
     terms:
@@ -1005,18 +994,13 @@ atlassian:
 atom:
   changes:
     - 5.2.0
-    - 5.12.0
   label: Atom
   search:
     terms:
       - atheism
       - chemistry
-      - electron
       - ion
-      - isotope
-      - neutron
       - nuclear
-      - proton
       - science
   styles:
     - solid
@@ -1036,7 +1020,6 @@ audio-description:
   changes:
     - '4.6'
     - 5.0.0
-    - 5.10.2
   label: Audio Description
   search:
     terms:
@@ -1082,7 +1065,6 @@ award:
   changes:
     - 5.1.0
     - 5.2.0
-    - 5.10.2
   label: Award
   search:
     terms:
@@ -1191,56 +1173,6 @@ bacon:
     - solid
   unicode: f7e5
   voted: false
-bacteria:
-  changes:
-    - 5.13.0
-    - 5.13.1
-    - 5.14.0
-  label: Bacteria
-  search:
-    terms:
-      - antibiotic
-      - antibody
-      - covid-19
-      - health
-      - organism
-      - sick
-  styles:
-    - solid
-  unicode: e059
-  voted: false
-bacterium:
-  changes:
-    - 5.13.0
-    - 5.13.1
-    - 5.14.0
-  label: Bacterium
-  search:
-    terms:
-      - antibiotic
-      - antibody
-      - covid-19
-      - health
-      - organism
-      - sick
-  styles:
-    - solid
-  unicode: e05a
-  voted: false
-bahai:
-  changes:
-    - 5.3.0
-    - 5.12.0
-  label: Bahá'í
-  search:
-    terms:
-      - bahai
-      - bahá'í
-      - star
-  styles:
-    - solid
-  unicode: f666
-  voted: false
 balance-scale:
   changes:
     - '4.4'
@@ -1261,8 +1193,6 @@ balance-scale:
 balance-scale-left:
   changes:
     - 5.0.13
-    - 5.9.0
-    - 5.12.0
   label: Balance Scale (Left-Weighted)
   search:
     terms:
@@ -1278,8 +1208,6 @@ balance-scale-left:
 balance-scale-right:
   changes:
     - 5.0.13
-    - 5.9.0
-    - 5.12.0
   label: Balance Scale (Right-Weighted)
   search:
     terms:
@@ -1316,7 +1244,6 @@ ban:
 band-aid:
   changes:
     - 5.0.7
-    - 5.10.2
   label: Band-Aid
   search:
     terms:
@@ -1332,7 +1259,6 @@ bandcamp:
   changes:
     - '4.7'
     - 5.0.0
-    - 5.13.1
   label: Bandcamp
   search:
     terms: []
@@ -1382,8 +1308,6 @@ bars:
 baseball-ball:
   changes:
     - 5.0.5
-    - 5.11.0
-    - 5.11.1
   label: Baseball Ball
   search:
     terms:
@@ -1401,8 +1325,6 @@ baseball-ball:
 basketball-ball:
   changes:
     - 5.0.5
-    - 5.11.0
-    - 5.11.1
   label: Basketball Ball
   search:
     terms:
@@ -1418,7 +1340,6 @@ bath:
   changes:
     - '4.7'
     - 5.0.0
-    - 5.12.0
   label: Bath
   search:
     terms:
@@ -1520,7 +1441,6 @@ bed:
   search:
     terms:
       - lodging
-      - mattress
       - rest
       - sleep
       - travel
@@ -1577,7 +1497,6 @@ bell:
     - '2'
     - 5.0.0
     - 5.2.0
-    - 5.11.0
   label: bell
   search:
     terms:
@@ -1706,7 +1625,6 @@ biohazard:
   label: Biohazard
   search:
     terms:
-      - covid-19
       - danger
       - dangerous
       - hazmat
@@ -1834,7 +1752,6 @@ blind:
   changes:
     - '4.6'
     - 5.0.0
-    - 5.11.0
   label: Blind
   search:
     terms:
@@ -1911,7 +1828,6 @@ bold:
     - '1'
     - 5.0.0
     - 5.9.0
-    - 5.10.2
   label: bold
   search:
     terms:
@@ -2082,7 +1998,6 @@ bookmark:
   changes:
     - '1'
     - 5.0.0
-    - 5.10.2
   label: bookmark
   search:
     terms:
@@ -2148,8 +2063,6 @@ border-style:
 bowling-ball:
   changes:
     - 5.0.5
-    - 5.11.0
-    - 5.11.1
   label: Bowling Ball
   search:
     terms:
@@ -2193,24 +2106,6 @@ box-open:
     - solid
   unicode: f49e
   voted: false
-box-tissue:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Tissue Box
-  search:
-    terms:
-      - cough
-      - covid-19
-      - kleenex
-      - mucus
-      - nose
-      - sneeze
-      - snot
-  styles:
-    - solid
-  unicode: e05b
-  voted: false
 boxes:
   changes:
     - 5.0.7
@@ -2245,7 +2140,6 @@ brain:
   changes:
     - 5.2.0
     - 5.9.0
-    - 5.11.0
   label: Brain
   search:
     terms:
@@ -2523,15 +2417,6 @@ business-time:
     - solid
   unicode: f64a
   voted: false
-buy-n-large:
-  changes:
-    - 5.11.0
-  label: Buy n Large
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: f8a6
 buysellads:
   changes:
     - '4.3'
@@ -2548,7 +2433,6 @@ calculator:
     - '4.2'
     - 5.0.0
     - 5.3.0
-    - 5.11.0
   label: Calculator
   search:
     terms:
@@ -2567,7 +2451,6 @@ calendar:
   changes:
     - '3.1'
     - 5.0.0
-    - 5.10.2
   label: Calendar
   search:
     terms:
@@ -2588,7 +2471,6 @@ calendar-alt:
     - 5.0.0
     - 5.6.0
     - 5.7.0
-    - 5.10.2
   label: Alternate Calendar
   search:
     terms:
@@ -2607,7 +2489,6 @@ calendar-check:
   changes:
     - '4.4'
     - 5.0.0
-    - 5.10.2
   label: Calendar Check
   search:
     terms:
@@ -2635,7 +2516,6 @@ calendar-check:
 calendar-day:
   changes:
     - 5.6.0
-    - 5.10.2
   label: Calendar with Day Focus
   search:
     terms:
@@ -2656,7 +2536,6 @@ calendar-minus:
   changes:
     - '4.4'
     - 5.0.0
-    - 5.10.2
   label: Calendar Minus
   search:
     terms:
@@ -2678,7 +2557,6 @@ calendar-plus:
   changes:
     - '4.4'
     - 5.0.0
-    - 5.10.2
   label: Calendar Plus
   search:
     terms:
@@ -2701,7 +2579,6 @@ calendar-times:
   changes:
     - '4.4'
     - 5.0.0
-    - 5.10.2
   label: Calendar Times
   search:
     terms:
@@ -2723,7 +2600,6 @@ calendar-times:
 calendar-week:
   changes:
     - 5.6.0
-    - 5.10.2
   label: Calendar with Week Focus
   search:
     terms:
@@ -2884,8 +2760,6 @@ car:
 car-alt:
   changes:
     - 5.2.0
-    - 5.11.0
-    - 5.11.1
   label: Alternate Car
   search:
     terms:
@@ -2947,21 +2821,6 @@ car-side:
     - solid
   unicode: f5e4
   voted: false
-caravan:
-  changes:
-    - 5.12.0
-  label: Caravan
-  search:
-    terms:
-      - camper
-      - motor home
-      - rv
-      - trailer
-      - travel
-  styles:
-    - solid
-  unicode: f8ff
-  voted: true
 caret-down:
   changes:
     - '2'
@@ -3315,7 +3174,6 @@ certificate:
     - '2'
     - 5.0.0
     - 5.10.1
-    - 5.10.2
   label: certificate
   search:
     terms:
@@ -3329,7 +3187,6 @@ certificate:
 chair:
   changes:
     - 5.4.0
-    - 5.11.0
   label: Chair
   search:
     terms:
@@ -3873,7 +3730,6 @@ circle:
     - '3'
     - 5.0.0
     - 5.10.1
-    - 5.10.2
   label: Circle
   search:
     terms:
@@ -3892,7 +3748,6 @@ circle-notch:
   changes:
     - '4.1'
     - 5.0.0
-    - 5.10.2
   label: Circle Notched
   search:
     terms:
@@ -3927,7 +3782,6 @@ clinic-medical:
   label: Medical Clinic
   search:
     terms:
-      - covid-19
       - doctor
       - general practitioner
       - hospital
@@ -3998,7 +3852,6 @@ clock:
   changes:
     - '1'
     - 5.0.0
-    - 5.12.1
   label: Clock
   search:
     terms:
@@ -4018,7 +3871,6 @@ clone:
   changes:
     - '4.4'
     - 5.0.0
-    - 5.11.0
   label: Clone
   search:
     terms:
@@ -4598,8 +4450,6 @@ compact-disc:
   changes:
     - 5.0.13
     - 5.10.1
-    - 5.11.0
-    - 5.11.1
   label: Compact Disc
   search:
     terms:
@@ -4623,8 +4473,6 @@ compass:
     - '3.2'
     - 5.0.0
     - 5.2.0
-    - 5.11.0
-    - 5.11.1
   label: Compass
   search:
     terms:
@@ -4656,25 +4504,6 @@ compress:
   styles:
     - solid
   unicode: f066
-  voted: false
-compress-alt:
-  changes:
-    - '1'
-    - 5.0.0
-    - 5.12.0
-  label: Alternate Compress
-  search:
-    terms:
-      - collapse
-      - fullscreen
-      - minimize
-      - move
-      - resize
-      - shrink
-      - smaller
-  styles:
-    - solid
-  unicode: f422
   voted: false
 compress-arrows-alt:
   changes:
@@ -4780,7 +4609,6 @@ copy:
   changes:
     - '2'
     - 5.0.0
-    - 5.10.2
   label: Copy
   search:
     terms:
@@ -4800,7 +4628,6 @@ copyright:
     - '4.2'
     - 5.0.0
     - 5.10.1
-    - 5.10.2
   label: Copyright
   search:
     terms:
@@ -5249,17 +5076,6 @@ d-and-d-beyond:
     - brands
   unicode: f6ca
   voted: false
-dailymotion:
-  changes:
-    - 5.12.1
-    - 5.14.0
-  label: dailymotion
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e052
-  voted: true
 dashcube:
   changes:
     - '4.3'
@@ -5302,17 +5118,6 @@ deaf:
     - solid
   unicode: f2a4
   voted: false
-deezer:
-  changes:
-    - 5.13.1
-    - 5.14.0
-  label: Deezer
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e077
-  voted: true
 delicious:
   changes:
     - '4.1'
@@ -5633,7 +5438,6 @@ digital-tachograph:
 directions:
   changes:
     - 5.2.0
-    - 5.11.0
   label: Directions
   search:
     terms:
@@ -5666,23 +5470,6 @@ discourse:
     - brands
   unicode: f393
   voted: false
-disease:
-  changes:
-    - 5.7.0
-  label: Disease
-  search:
-    terms:
-      - bacteria
-      - cancer
-      - covid-19
-      - illness
-      - infection
-      - sickness
-      - virus
-  styles:
-    - solid
-  unicode: f7fa
-  voted: false
 divide:
   changes:
     - 5.0.13
@@ -5700,8 +5487,6 @@ divide:
 dizzy:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Dizzy Face
   search:
     terms:
@@ -5754,7 +5539,6 @@ docker:
 dog:
   changes:
     - 5.4.0
-    - 5.12.0
   label: Dog
   search:
     terms:
@@ -5775,8 +5559,6 @@ dollar-sign:
     - '3.2'
     - 5.0.0
     - 5.0.9
-    - 5.11.0
-    - 5.11.1
   label: Dollar Sign
   search:
     terms:
@@ -5876,7 +5658,6 @@ dove:
   changes:
     - 5.0.9
     - 5.10.1
-    - 5.10.2
   label: Dove
   search:
     terms:
@@ -5996,7 +5777,6 @@ dropbox:
 drum:
   changes:
     - 5.1.0
-    - 5.11.0
   label: Drum
   search:
     terms:
@@ -6160,7 +5940,6 @@ edge:
   changes:
     - '4.5'
     - 5.0.0
-    - 5.12.1
   label: Edge Browser
   search:
     terms:
@@ -6169,17 +5948,6 @@ edge:
   styles:
     - brands
   unicode: f282
-  voted: false
-edge-legacy:
-  changes:
-    - 5.13.1
-    - 5.14.0
-  label: Edge Legacy Browser
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e078
   voted: false
 edit:
   changes:
@@ -6318,8 +6086,6 @@ envelope:
   changes:
     - '2'
     - 5.0.0
-    - 5.10.1
-    - 5.10.2
   label: Envelope
   search:
     terms:
@@ -6340,7 +6106,6 @@ envelope-open:
     - '4.7'
     - 5.0.0
     - 5.10.1
-    - 5.10.2
   label: Envelope Open
   search:
     terms:
@@ -6360,7 +6125,6 @@ envelope-open-text:
   changes:
     - 5.3.0
     - 5.10.1
-    - 5.12.0
   label: Envelope Open-text
   search:
     terms:
@@ -6532,7 +6296,6 @@ exclamation:
     - '3.1'
     - 5.0.0
     - 5.10.1
-    - 5.10.2
   label: exclamation
   search:
     terms:
@@ -6596,30 +6359,13 @@ expand:
   label: Expand
   search:
     terms:
+      - arrow
       - bigger
       - enlarge
-      - fullscreen
       - resize
   styles:
     - solid
   unicode: f065
-  voted: false
-expand-alt:
-  changes:
-    - '1'
-    - 5.0.0
-    - 5.12.0
-  label: Alternate Expand
-  search:
-    terms:
-      - arrows
-      - bigger
-      - enlarge
-      - fullscreen
-      - resize
-  styles:
-    - solid
-  unicode: f424
   voted: false
 expand-arrows-alt:
   changes:
@@ -6628,9 +6374,9 @@ expand-arrows-alt:
   label: Alternate Expand Arrows
   search:
     terms:
+      - arrows-alt
       - bigger
       - enlarge
-      - fullscreen
       - move
       - resize
   styles:
@@ -6651,7 +6397,6 @@ expeditedssl:
 external-link-alt:
   changes:
     - 5.0.0
-    - 5.11.0
   label: Alternate External Link
   search:
     terms:
@@ -6852,30 +6597,11 @@ fast-forward:
     - solid
   unicode: f050
   voted: false
-faucet:
-  changes:
-    - 5.12.0
-    - 5.14.0
-  label: Faucet
-  search:
-    terms:
-      - covid-19
-      - drip
-      - house
-      - hygiene
-      - kitchen
-      - sink
-      - water
-  styles:
-    - solid
-  unicode: e005
-  voted: false
 fax:
   changes:
     - '4.1'
     - 5.0.0
     - 5.3.0
-    - 5.11.0
   label: Fax
   search:
     terms:
@@ -7003,7 +6729,6 @@ file:
     - '3.2'
     - 5.0.0
     - 5.10.1
-    - 5.10.2
   label: File
   search:
     terms:
@@ -7021,7 +6746,6 @@ file-alt:
   changes:
     - '3.2'
     - 5.0.0
-    - 5.10.2
   label: Alternate File
   search:
     terms:
@@ -7041,7 +6765,6 @@ file-archive:
     - '4.1'
     - 5.0.0
     - 5.7.0
-    - 5.10.2
   label: Archive File
   search:
     terms:
@@ -7060,7 +6783,6 @@ file-audio:
   changes:
     - '4.1'
     - 5.0.0
-    - 5.10.2
   label: Audio File
   search:
     terms:
@@ -7079,7 +6801,6 @@ file-code:
   changes:
     - '4.1'
     - 5.0.0
-    - 5.10.2
   label: Code File
   search:
     terms:
@@ -7095,7 +6816,6 @@ file-code:
 file-contract:
   changes:
     - 5.1.0
-    - 5.10.2
   label: File Contract
   search:
     terms:
@@ -7111,7 +6831,6 @@ file-contract:
 file-csv:
   changes:
     - 5.4.0
-    - 5.10.2
   label: File CSV
   search:
     terms:
@@ -7127,7 +6846,6 @@ file-csv:
 file-download:
   changes:
     - 5.1.0
-    - 5.10.2
   label: File Download
   search:
     terms:
@@ -7142,7 +6860,6 @@ file-excel:
   changes:
     - '4.1'
     - 5.0.0
-    - 5.10.2
   label: Excel File
   search:
     terms:
@@ -7160,7 +6877,6 @@ file-export:
   changes:
     - 5.1.0
     - 5.7.0
-    - 5.10.2
   label: File Export
   search:
     terms:
@@ -7174,7 +6890,6 @@ file-image:
   changes:
     - '4.1'
     - 5.0.0
-    - 5.10.2
   label: Image File
   search:
     terms:
@@ -7192,7 +6907,6 @@ file-import:
   changes:
     - 5.1.0
     - 5.7.0
-    - 5.10.2
   label: File Import
   search:
     terms:
@@ -7207,7 +6921,6 @@ file-import:
 file-invoice:
   changes:
     - 5.1.0
-    - 5.10.2
   label: File Invoice
   search:
     terms:
@@ -7224,7 +6937,6 @@ file-invoice:
 file-invoice-dollar:
   changes:
     - 5.1.0
-    - 5.10.2
   label: File Invoice with US Dollar
   search:
     terms:
@@ -7245,7 +6957,6 @@ file-invoice-dollar:
 file-medical:
   changes:
     - 5.0.7
-    - 5.10.2
   label: Medical File
   search:
     terms:
@@ -7261,7 +6972,6 @@ file-medical:
 file-medical-alt:
   changes:
     - 5.0.7
-    - 5.10.2
   label: Alternate Medical File
   search:
     terms:
@@ -7278,7 +6988,6 @@ file-pdf:
   changes:
     - '4.1'
     - 5.0.0
-    - 5.10.2
   label: PDF File
   search:
     terms:
@@ -7295,7 +7004,6 @@ file-powerpoint:
   changes:
     - '4.1'
     - 5.0.0
-    - 5.10.2
   label: Powerpoint File
   search:
     terms:
@@ -7311,7 +7019,6 @@ file-powerpoint:
 file-prescription:
   changes:
     - 5.1.0
-    - 5.10.2
   label: File Prescription
   search:
     terms:
@@ -7327,7 +7034,6 @@ file-prescription:
 file-signature:
   changes:
     - 5.1.0
-    - 5.10.2
   label: File Signature
   search:
     terms:
@@ -7342,7 +7048,6 @@ file-signature:
 file-upload:
   changes:
     - 5.1.0
-    - 5.10.2
   label: File Upload
   search:
     terms:
@@ -7358,7 +7063,6 @@ file-video:
   changes:
     - '4.1'
     - 5.0.0
-    - 5.10.2
   label: Video File
   search:
     terms:
@@ -7376,7 +7080,6 @@ file-word:
   changes:
     - '4.1'
     - 5.0.0
-    - 5.10.2
   label: Word File
   search:
     terms:
@@ -7440,8 +7143,6 @@ filter:
     - '2'
     - 5.0.0
     - 5.10.1
-    - 5.11.0
-    - 5.11.1
   label: Filter
   search:
     terms:
@@ -7529,7 +7230,6 @@ firefox:
     - '4.4'
     - 5.0.0
     - 5.0.1
-    - 5.12.0
   label: Firefox
   search:
     terms:
@@ -7537,18 +7237,6 @@ firefox:
   styles:
     - brands
   unicode: f269
-  voted: false
-firefox-browser:
-  changes:
-    - 5.12.0
-    - 5.14.0
-  label: Firefox Browser
-  search:
-    terms:
-      - browser
-  styles:
-    - brands
-  unicode: e007
   voted: false
 first-aid:
   changes:
@@ -7726,8 +7414,6 @@ flipboard:
 flushed:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Flushed Face
   search:
     terms:
@@ -7805,8 +7491,6 @@ folder-open:
 folder-plus:
   changes:
     - 5.3.0
-    - 5.11.0
-    - 5.12.1
   label: Folder Plus
   search:
     terms:
@@ -7827,7 +7511,6 @@ font:
     - '1'
     - 5.0.0
     - 5.9.0
-    - 5.10.2
   label: font
   search:
     terms:
@@ -7912,8 +7595,6 @@ fonticons-fi:
 football-ball:
   changes:
     - 5.0.5
-    - 5.11.0
-    - 5.11.1
   label: Football Ball
   search:
     terms:
@@ -7990,8 +7671,7 @@ free-code-camp:
   changes:
     - '4.7'
     - 5.0.0
-    - 5.12.0
-  label: freeCodeCamp
+  label: Free Code Camp
   search:
     terms: []
   styles:
@@ -8034,8 +7714,6 @@ frown:
     - 5.0.0
     - 5.0.9
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Frowning Face
   search:
     terms:
@@ -8052,8 +7730,6 @@ frown:
 frown-open:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Frowning Face With Open Mouth
   search:
     terms:
@@ -8137,16 +7813,13 @@ gamepad:
   changes:
     - '3.1'
     - 5.0.0
-    - 5.11.0
   label: Gamepad
   search:
     terms:
-      - arcade
       - controller
       - d-pad
       - joystick
       - video
-      - video game
   styles:
     - solid
   unicode: f11b
@@ -8203,8 +7876,6 @@ genderless:
   changes:
     - '4.4'
     - 5.0.0
-    - 5.11.0
-    - 5.11.1
   label: Genderless
   search:
     terms:
@@ -8522,8 +8193,6 @@ globe:
     - '2'
     - 5.0.0
     - 5.0.9
-    - 5.11.0
-    - 5.11.1
   label: Globe
   search:
     terms:
@@ -8550,8 +8219,6 @@ globe:
 globe-africa:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Globe with Africa shown
   search:
     terms:
@@ -8577,8 +8244,6 @@ globe-africa:
 globe-americas:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Globe with Americas shown
   search:
     terms:
@@ -8604,8 +8269,6 @@ globe-americas:
 globe-asia:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Globe with Asia shown
   search:
     terms:
@@ -8631,8 +8294,6 @@ globe-asia:
 globe-europe:
   changes:
     - 5.6.0
-    - 5.11.0
-    - 5.11.1
   label: Globe with Europe shown
   search:
     terms:
@@ -8720,17 +8381,6 @@ google-drive:
     - brands
   unicode: f3aa
   voted: false
-google-pay:
-  changes:
-    - 5.13.1
-    - 5.14.0
-  label: Google Pay
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e079
-  voted: false
 google-play:
   changes:
     - 5.0.0
@@ -8745,7 +8395,6 @@ google-plus:
   changes:
     - '4.6'
     - 5.0.0
-    - 5.13.1
   label: Google Plus
   search:
     terms:
@@ -8795,7 +8444,6 @@ gopuram:
   changes:
     - 5.3.0
     - 5.7.0
-    - 5.11.0
   label: Gopuram
   search:
     terms:
@@ -8882,8 +8530,6 @@ greater-than-equal:
 grimace:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Grimacing Face
   search:
     terms:
@@ -8899,8 +8545,6 @@ grimace:
 grin:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Grinning Face
   search:
     terms:
@@ -8916,8 +8560,6 @@ grin:
 grin-alt:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Alternate Grinning Face
   search:
     terms:
@@ -8933,8 +8575,6 @@ grin-alt:
 grin-beam:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Grinning Face With Smiling Eyes
   search:
     terms:
@@ -8950,8 +8590,6 @@ grin-beam:
 grin-beam-sweat:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Grinning Face With Sweat
   search:
     terms:
@@ -8967,8 +8605,6 @@ grin-beam-sweat:
 grin-hearts:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Smiling Face With Heart-Eyes
   search:
     terms:
@@ -8984,8 +8620,6 @@ grin-hearts:
 grin-squint:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Grinning Squinting Face
   search:
     terms:
@@ -9016,8 +8650,6 @@ grin-squint-tears:
 grin-stars:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Star-Struck
   search:
     terms:
@@ -9046,8 +8678,6 @@ grin-tears:
 grin-tongue:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Face With Tongue
   search:
     terms:
@@ -9062,8 +8692,6 @@ grin-tongue:
 grin-tongue-squint:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Squinting Face With Tongue
   search:
     terms:
@@ -9078,9 +8706,6 @@ grin-tongue-squint:
 grin-tongue-wink:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
-    - 5.12.0
   label: Winking Face With Tongue
   search:
     terms:
@@ -9096,8 +8721,6 @@ grin-wink:
   changes:
     - 5.1.0
     - 5.1.1
-    - 5.11.0
-    - 5.11.1
   label: Grinning Winking Face
   search:
     terms:
@@ -9144,8 +8767,6 @@ grip-lines:
 grip-lines-vertical:
   changes:
     - 5.6.0
-    - 5.11.0
-    - 5.11.1
   label: Grip Lines Vertical
   search:
     terms:
@@ -9196,7 +8817,6 @@ grunt:
 guitar:
   changes:
     - 5.6.0
-    - 5.11.0
   label: Guitar
   search:
     terms:
@@ -9348,25 +8968,9 @@ hand-holding-heart:
     - solid
   unicode: f4be
   voted: false
-hand-holding-medical:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Hand Holding Medical Cross
-  search:
-    terms:
-      - care
-      - covid-19
-      - donate
-      - help
-  styles:
-    - solid
-  unicode: e05c
-  voted: false
 hand-holding-usd:
   changes:
     - 5.0.9
-    - 5.11.0
   label: Hand Holding US Dollar
   search:
     terms:
@@ -9381,22 +8985,6 @@ hand-holding-usd:
   styles:
     - solid
   unicode: f4c0
-  voted: false
-hand-holding-water:
-  changes:
-    - 5.0.9
-    - 5.13.0
-  label: Hand Holding Water
-  search:
-    terms:
-      - carry
-      - covid-19
-      - drought
-      - grow
-      - lift
-  styles:
-    - solid
-  unicode: f4c1
   voted: false
 hand-lizard:
   changes:
@@ -9415,8 +9003,6 @@ hand-lizard:
 hand-middle-finger:
   changes:
     - 5.7.0
-    - 5.11.0
-    - 5.11.1
   label: Hand with Middle Finger Raised
   search:
     terms:
@@ -9569,28 +9155,10 @@ hand-scissors:
     - regular
   unicode: f257
   voted: false
-hand-sparkles:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Hand Sparkles
-  search:
-    terms:
-      - clean
-      - covid-19
-      - hygiene
-      - magic
-      - soap
-      - wash
-  styles:
-    - solid
-  unicode: e05d
-  voted: false
 hand-spock:
   changes:
     - '4.4'
     - 5.0.0
-    - 5.12.0
   label: Spock (Hand)
   search:
     terms:
@@ -9632,21 +9200,6 @@ hands-helping:
     - solid
   unicode: f4c4
   voted: false
-hands-wash:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Hands Wash
-  search:
-    terms:
-      - covid-19
-      - hygiene
-      - soap
-      - wash
-  styles:
-    - solid
-  unicode: e05e
-  voted: false
 handshake:
   changes:
     - '4.7'
@@ -9663,34 +9216,6 @@ handshake:
     - solid
     - regular
   unicode: f2b5
-  voted: false
-handshake-alt-slash:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Handshake Alternate Slash
-  search:
-    terms:
-      - broken
-      - covid-19
-      - social distance
-  styles:
-    - solid
-  unicode: e05f
-  voted: false
-handshake-slash:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Handshake Slash
-  search:
-    terms:
-      - broken
-      - covid-19
-      - social distance
-  styles:
-    - solid
-  unicode: e060
   voted: false
 hanukiah:
   changes:
@@ -9737,52 +9262,9 @@ hashtag:
     - solid
   unicode: f292
   voted: false
-hat-cowboy:
-  changes:
-    - 5.11.0
-  label: Cowboy Hat
-  search:
-    terms:
-      - buckaroo
-      - horse
-      - jackeroo
-      - john b.
-      - old west
-      - pardner
-      - ranch
-      - rancher
-      - rodeo
-      - western
-      - wrangler
-  styles:
-    - solid
-  unicode: f8c0
-  voted: false
-hat-cowboy-side:
-  changes:
-    - 5.11.0
-  label: Cowboy Hat Side
-  search:
-    terms:
-      - buckaroo
-      - horse
-      - jackeroo
-      - john b.
-      - old west
-      - pardner
-      - ranch
-      - rancher
-      - rodeo
-      - western
-      - wrangler
-  styles:
-    - solid
-  unicode: f8c1
-  voted: false
 hat-wizard:
   changes:
     - 5.4.0
-    - 5.11.0
   label: Wizard's Hat
   search:
     terms:
@@ -9804,6 +9286,19 @@ hat-wizard:
     - solid
   unicode: f6e8
   voted: false
+haykal:
+  changes:
+    - 5.3.0
+  label: Haykal
+  search:
+    terms:
+      - bahai
+      - bahá'í
+      - star
+  styles:
+    - solid
+  unicode: f666
+  voted: false
 hdd:
   changes:
     - '2'
@@ -9823,78 +9318,12 @@ hdd:
     - regular
   unicode: f0a0
   voted: false
-head-side-cough:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Head Side Cough
-  search:
-    terms:
-      - cough
-      - covid-19
-      - germs
-      - lungs
-      - respiratory
-      - sick
-  styles:
-    - solid
-  unicode: e061
-  voted: false
-head-side-cough-slash:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Head Side-cough-slash
-  search:
-    terms:
-      - cough
-      - covid-19
-      - germs
-      - lungs
-      - respiratory
-      - sick
-  styles:
-    - solid
-  unicode: e062
-  voted: false
-head-side-mask:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Head Side Mask
-  search:
-    terms:
-      - breath
-      - covid-19
-      - filter
-      - respirator
-      - virus
-  styles:
-    - solid
-  unicode: e063
-  voted: false
-head-side-virus:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Head Side Virus
-  search:
-    terms:
-      - cold
-      - covid-19
-      - flu
-      - sick
-  styles:
-    - solid
-  unicode: e064
-  voted: false
 heading:
   changes:
     - '4.1'
     - 5.0.0
     - 5.9.0
     - 5.10.1
-    - 5.10.2
   label: heading
   search:
     terms:
@@ -9963,7 +9392,6 @@ heart:
     - 5.0.0
     - 5.0.9
     - 5.10.1
-    - 5.10.2
   label: Heart
   search:
     terms:
@@ -9980,7 +9408,6 @@ heart:
 heart-broken:
   changes:
     - 5.6.0
-    - 5.10.2
   label: Heart Broken
   search:
     terms:
@@ -10227,7 +9654,6 @@ hospital:
   search:
     terms:
       - building
-      - covid-19
       - emergency room
       - medical center
   styles:
@@ -10242,7 +9668,6 @@ hospital-alt:
   search:
     terms:
       - building
-      - covid-19
       - emergency room
       - medical center
   styles:
@@ -10256,27 +9681,11 @@ hospital-symbol:
   search:
     terms:
       - clinic
-      - covid-19
       - emergency
       - map
   styles:
     - solid
   unicode: f47e
-  voted: false
-hospital-user:
-  changes:
-    - 5.7.0
-  label: Hospital with User
-  search:
-    terms:
-      - covid-19
-      - doctor
-      - network
-      - patient
-      - primary care
-  styles:
-    - solid
-  unicode: f80d
   voted: false
 hot-tub:
   changes:
@@ -10423,21 +9832,6 @@ house-damage:
     - solid
   unicode: f6f1
   voted: false
-house-user:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: House User
-  search:
-    terms:
-      - covid-19
-      - home
-      - isolation
-      - quarantine
-  styles:
-    - solid
-  unicode: e065
-  voted: false
 houzz:
   changes:
     - '4.4'
@@ -10504,8 +9898,6 @@ i-cursor:
 ice-cream:
   changes:
     - 5.7.0
-    - 5.11.0
-    - 5.11.1
   label: Ice Cream
   search:
     terms:
@@ -10609,17 +10001,6 @@ id-card-alt:
     - solid
   unicode: f47f
   voted: false
-ideal:
-  changes:
-    - 5.12.0
-    - 5.14.0
-  label: iDeal
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e013
-  voted: true
 igloo:
   changes:
     - 5.6.0
@@ -10751,7 +10132,6 @@ info:
     - '3.1'
     - 5.0.0
     - 5.10.1
-    - 5.10.2
   label: Info
   search:
     terms:
@@ -10791,17 +10171,6 @@ instagram:
     - brands
   unicode: f16d
   voted: false
-instagram-square:
-  changes:
-    - 5.12.1
-    - 5.14.0
-  label: Instagram Square
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e055
-  voted: true
 intercom:
   changes:
     - 5.6.0
@@ -10858,7 +10227,6 @@ italic:
     - 5.0.0
     - 5.9.0
     - 5.10.1
-    - 5.10.2
   label: italic
   search:
     terms:
@@ -11005,7 +10373,6 @@ joomla:
 journal-whills:
   changes:
     - 5.3.0
-    - 5.11.0
   label: Journal of the Whills
   search:
     terms:
@@ -11097,8 +10464,6 @@ keybase:
   changes:
     - 5.0.11
     - 5.8.0
-    - 5.10.2
-    - 5.11.0
   label: Keybase
   search:
     terms: []
@@ -11172,8 +10537,6 @@ kiss:
   changes:
     - 5.1.0
     - 5.1.1
-    - 5.11.0
-    - 5.11.1
   label: Kissing Face
   search:
     terms:
@@ -11190,8 +10553,6 @@ kiss:
 kiss-beam:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Kissing Face With Smiling Eyes
   search:
     terms:
@@ -11208,8 +10569,6 @@ kiss-beam:
 kiss-wink-heart:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Face Blowing a Kiss
   search:
     terms:
@@ -11265,7 +10624,6 @@ language:
   changes:
     - '4.1'
     - 5.0.0
-    - 5.10.2
   label: Language
   search:
     terms:
@@ -11320,23 +10678,6 @@ laptop-code:
     - solid
   unicode: f5fc
   voted: false
-laptop-house:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Laptop House
-  search:
-    terms:
-      - computer
-      - covid-19
-      - device
-      - office
-      - remote
-      - work from home
-  styles:
-    - solid
-  unicode: e066
-  voted: false
 laptop-medical:
   changes:
     - 5.7.0
@@ -11356,7 +10697,6 @@ laravel:
   changes:
     - 5.0.0
     - 5.0.3
-    - 5.11.2
   label: Laravel
   search:
     terms: []
@@ -11390,8 +10730,6 @@ lastfm-square:
 laugh:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Grinning Face With Big Eyes
   search:
     terms:
@@ -11408,8 +10746,6 @@ laugh:
 laugh-beam:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Laugh Face with Beaming Eyes
   search:
     terms:
@@ -11426,8 +10762,6 @@ laugh-beam:
 laugh-squint:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Laughing Squinting Face
   search:
     terms:
@@ -11444,8 +10778,6 @@ laugh-squint:
 laugh-wink:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Laughing Winking Face
   search:
     terms:
@@ -11913,36 +11245,6 @@ luggage-cart:
     - solid
   unicode: f59d
   voted: false
-lungs:
-  changes:
-    - 5.2.0
-  label: Lungs
-  search:
-    terms:
-      - air
-      - breath
-      - covid-19
-      - organ
-      - respiratory
-  styles:
-    - solid
-  unicode: f604
-  voted: false
-lungs-virus:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Lungs Virus
-  search:
-    terms:
-      - breath
-      - covid-19
-      - respiratory
-      - sick
-  styles:
-    - solid
-  unicode: e067
-  voted: false
 lyft:
   changes:
     - 5.0.0
@@ -12293,7 +11595,6 @@ mars-stroke-h:
   changes:
     - '4.3'
     - 5.0.0
-    - 5.11.0
   label: Mars Stroke Horizontal
   search:
     terms: []
@@ -12305,7 +11606,6 @@ mars-stroke-v:
   changes:
     - '4.3'
     - 5.0.0
-    - 5.11.0
   label: Mars Stroke Vertical
   search:
     terms: []
@@ -12352,15 +11652,6 @@ maxcdn:
     - brands
   unicode: f136
   voted: false
-mdb:
-  changes:
-    - 5.11.0
-  label: Material Design for Bootstrap
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: f8ca
 medal:
   changes:
     - 5.1.0
@@ -12459,8 +11750,6 @@ meh:
     - 5.0.0
     - 5.0.9
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Neutral Face
   search:
     terms:
@@ -12476,8 +11765,6 @@ meh:
 meh-blank:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Face Without Mouth
   search:
     terms:
@@ -12493,8 +11780,6 @@ meh-blank:
 meh-rolling-eyes:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Face With Rolling Eyes
   search:
     terms:
@@ -12552,7 +11837,6 @@ mercury:
   changes:
     - '4.3'
     - 5.0.0
-    - 5.11.0
   label: Mercury
   search:
     terms:
@@ -12564,7 +11848,6 @@ mercury:
 meteor:
   changes:
     - 5.5.0
-    - 5.12.0
   label: Meteor
   search:
     terms:
@@ -12577,17 +11860,6 @@ meteor:
     - solid
   unicode: f753
   voted: false
-microblog:
-  changes:
-    - 5.12.0
-    - 5.14.0
-  label: Micro.blog
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e01a
-  voted: true
 microchip:
   changes:
     - '4.7'
@@ -12682,7 +11954,6 @@ microscope:
   label: Microscope
   search:
     terms:
-      - covid-19
       - electron
       - lens
       - optics
@@ -12724,7 +11995,6 @@ minus-circle:
   changes:
     - '1'
     - 5.0.0
-    - 5.10.2
   label: Minus Circle
   search:
     terms:
@@ -12796,17 +12066,6 @@ mixcloud:
     - brands
   unicode: f289
   voted: false
-mixer:
-  changes:
-    - 5.12.1
-    - 5.14.0
-  label: Mixer
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e056
-  voted: true
 mizuni:
   changes:
     - 5.0.0
@@ -13003,8 +12262,6 @@ moon:
   changes:
     - '3.2'
     - 5.0.0
-    - 5.11.0
-    - 5.11.1
   label: Moon
   search:
     terms:
@@ -13081,21 +12338,6 @@ mountain:
     - solid
   unicode: f6fc
   voted: false
-mouse:
-  changes:
-    - 5.11.0
-  label: Mouse
-  search:
-    terms:
-      - click
-      - computer
-      - cursor
-      - input
-      - peripheral
-  styles:
-    - solid
-  unicode: f8cc
-  voted: true
 mouse-pointer:
   changes:
     - '4.4'
@@ -13135,7 +12377,6 @@ music:
     - '1'
     - 5.0.0
     - 5.2.0
-    - 5.11.0
   label: Music
   search:
     terms:
@@ -13188,7 +12429,6 @@ neuter:
   changes:
     - '4.3'
     - 5.0.0
-    - 5.11.0
   label: Neuter
   search:
     terms: []
@@ -13452,15 +12692,6 @@ optin-monster:
     - brands
   unicode: f23c
   voted: false
-orcid:
-  changes:
-    - 5.11.0
-  label: ORCID
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: f8d2
 osi:
   changes:
     - 5.0.0
@@ -13763,7 +12994,6 @@ pause:
   changes:
     - '1'
     - 5.0.0
-    - 5.10.2
   label: pause
   search:
     terms:
@@ -13817,8 +13047,6 @@ paypal:
 peace:
   changes:
     - 5.3.0
-    - 5.11.0
-    - 5.11.1
   label: Peace
   search:
     terms:
@@ -13952,23 +13180,6 @@ penny-arcade:
     - brands
   unicode: f704
   voted: false
-people-arrows:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: People Arrows
-  search:
-    terms:
-      - covid-19
-      - personal space
-      - social distance
-      - space
-      - spread
-      - users
-  styles:
-    - solid
-  unicode: e068
-  voted: false
 people-carry:
   changes:
     - 5.0.9
@@ -14099,8 +13310,6 @@ phone:
   changes:
     - '2'
     - 5.0.0
-    - 5.10.1
-    - 5.10.2
   label: Phone
   search:
     terms:
@@ -14118,7 +13327,6 @@ phone-alt:
   changes:
     - 5.9.0
     - 5.10.1
-    - 5.10.2
   label: Alternate Phone
   search:
     terms:
@@ -14236,7 +13444,6 @@ pied-piper:
     - '4.6'
     - 5.0.0
     - 5.0.10
-    - 5.12.0
   label: Pied Piper Logo
   search:
     terms: []
@@ -14249,7 +13456,7 @@ pied-piper-alt:
     - '4.1'
     - 5.0.0
     - 5.7.0
-  label: Alternate Pied Piper Logo (Old)
+  label: Alternate Pied Piper Logo
   search:
     terms: []
   styles:
@@ -14259,7 +13466,7 @@ pied-piper-alt:
 pied-piper-hat:
   changes:
     - 5.0.10
-  label: Pied Piper Hat (Old)
+  label: Pied Piper-hat
   search:
     terms:
       - clothing
@@ -14278,21 +13485,9 @@ pied-piper-pp:
     - brands
   unicode: f1a7
   voted: false
-pied-piper-square:
-  changes:
-    - 5.12.0
-    - 5.14.0
-  label: Pied Piper Square Logo (Old)
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e01e
-  voted: false
 piggy-bank:
   changes:
     - 5.0.9
-    - 5.10.2
   label: Piggy Bank
   search:
     terms:
@@ -14445,28 +13640,10 @@ plane-departure:
     - solid
   unicode: f5b0
   voted: false
-plane-slash:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Plane Slash
-  search:
-    terms:
-      - airplane mode
-      - canceled
-      - covid-19
-      - delayed
-      - grounded
-      - travel
-  styles:
-    - solid
-  unicode: e069
-  voted: false
 play:
   changes:
     - '1'
     - 5.0.0
-    - 5.10.2
   label: play
   search:
     terms:
@@ -14484,7 +13661,6 @@ play-circle:
   changes:
     - '3.1'
     - 5.0.0
-    - 5.10.2
   label: Play Circle
   search:
     terms:
@@ -14513,7 +13689,6 @@ plug:
   changes:
     - '4.2'
     - 5.0.0
-    - 5.12.0
   label: Plug
   search:
     terms:
@@ -14798,7 +13973,6 @@ print:
     - '1'
     - 5.0.0
     - 5.3.0
-    - 5.11.0
   label: print
   search:
     terms:
@@ -14853,43 +14027,6 @@ project-diagram:
   styles:
     - solid
   unicode: f542
-  voted: false
-pump-medical:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Pump Medical
-  search:
-    terms:
-      - anti-bacterial
-      - clean
-      - covid-19
-      - disinfect
-      - hygiene
-      - medical grade
-      - sanitizer
-      - soap
-  styles:
-    - solid
-  unicode: e06a
-  voted: false
-pump-soap:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Pump Soap
-  search:
-    terms:
-      - anti-bacterial
-      - clean
-      - covid-19
-      - disinfect
-      - hygiene
-      - sanitizer
-      - soap
-  styles:
-    - solid
-  unicode: e06b
   voted: false
 pushed:
   changes:
@@ -15089,8 +14226,6 @@ radiation:
   changes:
     - 5.6.0
     - 5.8.2
-    - 5.11.0
-    - 5.11.1
   label: Radiation
   search:
     terms:
@@ -15109,8 +14244,6 @@ radiation-alt:
   changes:
     - 5.6.0
     - 5.8.2
-    - 5.11.0
-    - 5.11.1
   label: Alternate Radiation
   search:
     terms:
@@ -15237,22 +14370,6 @@ receipt:
     - solid
   unicode: f543
   voted: true
-record-vinyl:
-  changes:
-    - 5.11.0
-  label: Record Vinyl
-  search:
-    terms:
-      - LP
-      - album
-      - analog
-      - music
-      - phonograph
-      - sound
-  styles:
-    - solid
-  unicode: f8d9
-  voted: false
 recycle:
   changes:
     - '4.1'
@@ -15577,7 +14694,6 @@ road:
 robot:
   changes:
     - 5.0.13
-    - 5.12.0
   label: Robot
   search:
     terms:
@@ -15594,7 +14710,6 @@ rocket:
     - '3.1'
     - 5.0.0
     - 5.7.0
-    - 5.12.0
   label: rocket
   search:
     terms:
@@ -15753,7 +14868,6 @@ ruler-vertical:
 running:
   changes:
     - 5.4.0
-    - 5.11.0
   label: Running
   search:
     terms:
@@ -15783,22 +14897,9 @@ rupee-sign:
     - solid
   unicode: f156
   voted: false
-rust:
-  changes:
-    - 5.13.1
-    - 5.14.0
-  label: Rust
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e07a
-  voted: true
 sad-cry:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Crying Face
   search:
     terms:
@@ -15814,8 +14915,6 @@ sad-cry:
 sad-tear:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Loudly Crying Face
   search:
     terms:
@@ -15832,7 +14931,6 @@ safari:
   changes:
     - '4.4'
     - 5.0.0
-    - 5.12.0
   label: Safari
   search:
     terms:
@@ -15865,7 +14963,6 @@ satellite:
   changes:
     - 5.6.0
     - 5.10.1
-    - 5.12.0
   label: Satellite
   search:
     terms:
@@ -15880,7 +14977,6 @@ satellite:
 satellite-dish:
   changes:
     - 5.6.0
-    - 5.12.0
   label: Satellite Dish
   search:
     terms:
@@ -15890,7 +14986,6 @@ satellite-dish:
       - receiver
       - saucer
       - signal
-      - space
   styles:
     - solid
   unicode: f7c0
@@ -15899,7 +14994,6 @@ save:
   changes:
     - '2'
     - 5.0.0
-    - 5.10.2
   label: Save
   search:
     terms:
@@ -15967,7 +15061,6 @@ scribd:
 scroll:
   changes:
     - 5.4.0
-    - 5.10.2
   label: Scroll
   search:
     terms:
@@ -16155,7 +15248,6 @@ servicestack:
 shapes:
   changes:
     - 5.2.0
-    - 5.12.0
   label: Shapes
   search:
     terms:
@@ -16259,29 +15351,10 @@ shield-alt:
     - solid
   unicode: f3ed
   voted: false
-shield-virus:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Shield Virus
-  search:
-    terms:
-      - antibodies
-      - barrier
-      - covid-19
-      - health
-      - protect
-  styles:
-    - solid
-  unicode: e06c
-  voted: false
 ship:
   changes:
     - '4.3'
     - 5.0.0
-    - 5.10.2
-    - 5.11.0
-    - 5.11.1
   label: Ship
   search:
     terms:
@@ -16334,17 +15407,6 @@ shoe-prints:
     - solid
   unicode: f54b
   voted: true
-shopify:
-  changes:
-    - 5.12.1
-    - 5.14.0
-  label: Shopify
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e057
-  voted: false
 shopping-bag:
   changes:
     - '4.5'
@@ -16408,7 +15470,6 @@ shower:
   changes:
     - '4.7'
     - 5.0.0
-    - 5.12.0
   label: Shower
   search:
     terms:
@@ -16474,7 +15535,6 @@ sign-language:
   changes:
     - '4.6'
     - 5.0.0
-    - 5.10.2
   label: Sign Language
   search:
     terms:
@@ -16539,7 +15599,6 @@ sim-card:
   changes:
     - 5.6.0
     - 5.8.2
-    - 5.10.2
   label: SIM Card
   search:
     terms:
@@ -16563,23 +15622,6 @@ simplybuilt:
   styles:
     - brands
   unicode: f215
-  voted: false
-sink:
-  changes:
-    - 5.13.0
-    - 5.13.1
-    - 5.14.0
-  label: Sink
-  search:
-    terms:
-      - bathroom
-      - covid-19
-      - faucet
-      - kitchen
-      - wash
-  styles:
-    - solid
-  unicode: e06d
   voted: false
 sistrix:
   changes:
@@ -16683,7 +15725,6 @@ skiing-nordic:
 skull:
   changes:
     - 5.0.13
-    - 5.10.2
   label: Skull
   search:
     terms:
@@ -16698,7 +15739,6 @@ skull:
 skull-crossbones:
   changes:
     - 5.4.0
-    - 5.10.2
   label: Skull & Crossbones
   search:
     terms:
@@ -16840,8 +15880,6 @@ smile:
     - 5.0.0
     - 5.0.9
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Smiling Face
   search:
     terms:
@@ -16859,8 +15897,6 @@ smile:
 smile-beam:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Beaming Face With Smiling Eyes
   search:
     terms:
@@ -16876,8 +15912,6 @@ smile-beam:
 smile-wink:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Winking Face
   search:
     terms:
@@ -17044,26 +16078,9 @@ snowplow:
   styles:
     - solid
   unicode: f7d2
-soap:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Soap
-  search:
-    terms:
-      - bubbles
-      - clean
-      - covid-19
-      - hygiene
-      - wash
-  styles:
-    - solid
-  unicode: e06e
-  voted: false
 socks:
   changes:
     - 5.3.0
-    - 5.10.2
   label: Socks
   search:
     terms:
@@ -17096,7 +16113,6 @@ sort:
   changes:
     - '2'
     - 5.0.0
-    - 5.10.2
   label: Sort
   search:
     terms:
@@ -17236,7 +16252,6 @@ sort-down:
     - '2'
     - 5.0.0
     - 5.10.1
-    - 5.10.2
   label: Sort Down (Descending)
   search:
     terms:
@@ -17318,7 +16333,6 @@ sort-up:
     - '2'
     - 5.0.0
     - 5.10.1
-    - 5.10.2
   label: Sort Up (Ascending)
   search:
     terms:
@@ -17372,7 +16386,6 @@ space-shuttle:
   changes:
     - '4.1'
     - 5.0.0
-    - 5.10.2
   label: Space Shuttle
   search:
     terms:
@@ -17380,7 +16393,6 @@ space-shuttle:
       - machine
       - nasa
       - rocket
-      - space
       - transportation
   styles:
     - solid
@@ -17442,7 +16454,6 @@ spinner:
   changes:
     - '3'
     - 5.0.0
-    - 5.10.2
   label: Spinner
   search:
     terms:
@@ -17499,7 +16510,6 @@ square:
     - '2'
     - 5.0.0
     - 5.10.1
-    - 5.10.2
   label: Square
   search:
     terms:
@@ -17514,7 +16524,6 @@ square:
 square-full:
   changes:
     - 5.0.5
-    - 5.10.2
   label: Square Full
   search:
     terms:
@@ -17584,7 +16593,6 @@ stackpath:
 stamp:
   changes:
     - 5.1.0
-    - 5.10.2
   label: Stamp
   search:
     terms:
@@ -17601,7 +16609,6 @@ star:
   changes:
     - '1'
     - 5.0.0
-    - 5.10.2
   label: Star
   search:
     terms:
@@ -17651,8 +16658,6 @@ star-half:
 star-half-alt:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Alternate Star Half
   search:
     terms:
@@ -17669,8 +16674,6 @@ star-half-alt:
 star-of-david:
   changes:
     - 5.3.0
-    - 5.11.0
-    - 5.11.1
   label: Star of David
   search:
     terms:
@@ -17742,9 +16745,6 @@ step-backward:
   changes:
     - '1'
     - 5.0.0
-    - 5.10.2
-    - 5.11.0
-    - 5.11.1
   label: step-backward
   search:
     terms:
@@ -17761,9 +16761,6 @@ step-forward:
   changes:
     - '1'
     - 5.0.0
-    - 5.10.2
-    - 5.11.0
-    - 5.11.1
   label: step-forward
   search:
     terms:
@@ -17782,7 +16779,6 @@ stethoscope:
   label: Stethoscope
   search:
     terms:
-      - covid-19
       - diagnosis
       - doctor
       - general practitioner
@@ -17810,7 +16806,6 @@ sticky-note:
   changes:
     - '4.4'
     - 5.0.0
-    - 5.10.2
   label: Sticky Note
   search:
     terms:
@@ -17828,7 +16823,6 @@ stop:
   changes:
     - '1'
     - 5.0.0
-    - 5.10.2
   label: stop
   search:
     terms:
@@ -17858,7 +16852,6 @@ stop-circle:
 stopwatch:
   changes:
     - 5.0.0
-    - 5.10.2
   label: Stopwatch
   search:
     terms:
@@ -17869,31 +16862,9 @@ stopwatch:
     - solid
   unicode: f2f2
   voted: false
-stopwatch-20:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Stopwatch 20
-  search:
-    terms:
-      - ABCs
-      - countdown
-      - covid-19
-      - happy birthday
-      - i will survive
-      - reminder
-      - seconds
-      - time
-      - timer
-  styles:
-    - solid
-  unicode: e06f
-  voted: false
 store:
   changes:
     - 5.0.13
-    - 5.11.0
-    - 5.11.1
   label: Store
   search:
     terms:
@@ -17919,40 +16890,6 @@ store-alt:
     - solid
   unicode: f54f
   voted: true
-store-alt-slash:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Alternate Store Slash
-  search:
-    terms:
-      - building
-      - buy
-      - closed
-      - covid-19
-      - purchase
-      - shopping
-  styles:
-    - solid
-  unicode: e070
-  voted: false
-store-slash:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Store Slash
-  search:
-    terms:
-      - building
-      - buy
-      - closed
-      - covid-19
-      - purchase
-      - shopping
-  styles:
-    - solid
-  unicode: e071
-  voted: false
 strava:
   changes:
     - 5.0.0
@@ -18087,7 +17024,6 @@ subscript:
     - '3.1'
     - 5.0.0
     - 5.9.0
-    - 5.10.2
   label: subscript
   search:
     terms:
@@ -18137,7 +17073,6 @@ suitcase:
 suitcase-rolling:
   changes:
     - 5.1.0
-    - 5.10.2
   label: Suitcase Rolling
   search:
     terms:
@@ -18188,7 +17123,6 @@ superscript:
     - '3.1'
     - 5.0.0
     - 5.9.0
-    - 5.10.2
   label: superscript
   search:
     terms:
@@ -18215,8 +17149,6 @@ supple:
 surprise:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Hushed Face
   search:
     terms:
@@ -18245,8 +17177,6 @@ suse:
 swatchbook:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Swatchbook
   search:
     terms:
@@ -18259,15 +17189,6 @@ swatchbook:
     - solid
   unicode: f5c3
   voted: false
-swift:
-  changes:
-    - 5.11.0
-  label: Swift
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: f8e1
 swimmer:
   changes:
     - 5.1.0
@@ -18362,7 +17283,6 @@ syringe:
   label: Syringe
   search:
     terms:
-      - covid-19
       - doctor
       - immunizations
       - medical
@@ -18478,7 +17398,6 @@ tags:
   changes:
     - '1'
     - 5.0.0
-    - 5.10.2
   label: tags
   search:
     terms:
@@ -18618,7 +17537,6 @@ temperature-high:
   search:
     terms:
       - cook
-      - covid-19
       - mercury
       - summer
       - thermometer
@@ -18635,7 +17553,6 @@ temperature-low:
     terms:
       - cold
       - cool
-      - covid-19
       - mercury
       - thermometer
       - winter
@@ -18689,7 +17606,6 @@ text-height:
     - '1'
     - 5.0.0
     - 5.9.0
-    - 5.10.2
   label: text-height
   search:
     terms:
@@ -18707,7 +17623,6 @@ text-width:
     - '1'
     - 5.0.0
     - 5.9.0
-    - 5.10.2
   label: Text Width
   search:
     terms:
@@ -18784,7 +17699,6 @@ the-red-yeti:
 theater-masks:
   changes:
     - 5.2.0
-    - 5.10.2
   label: Theater Masks
   search:
     terms:
@@ -18824,7 +17738,6 @@ thermometer:
   label: Thermometer
   search:
     terms:
-      - covid-19
       - mercury
       - status
       - temperature
@@ -18920,7 +17833,6 @@ thumbs-down:
   changes:
     - '3.2'
     - 5.0.0
-    - 5.10.2
   label: thumbs-down
   search:
     terms:
@@ -18939,7 +17851,6 @@ thumbs-up:
   changes:
     - '3.2'
     - 5.0.0
-    - 5.10.2
   label: thumbs-up
   search:
     terms:
@@ -18964,7 +17875,6 @@ thumbtack:
   changes:
     - '1'
     - 5.0.0
-    - 5.10.2
   label: Thumbtack
   search:
     terms:
@@ -18980,7 +17890,6 @@ thumbtack:
 ticket-alt:
   changes:
     - 5.0.0
-    - 5.10.2
   label: Alternate Ticket
   search:
     terms:
@@ -18992,24 +17901,11 @@ ticket-alt:
     - solid
   unicode: f3ff
   voted: false
-tiktok:
-  changes:
-    - 5.13.1
-    - 5.14.0
-  label: TikTok
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e07b
-  voted: true
 times:
   changes:
     - '1'
     - 5.0.0
     - 5.0.13
-    - 5.11.0
-    - 5.11.1
   label: Times
   search:
     terms:
@@ -19085,8 +17981,6 @@ tint-slash:
 tired:
   changes:
     - 5.1.0
-    - 5.11.0
-    - 5.11.1
   label: Tired Face
   search:
     terms:
@@ -19151,12 +18045,10 @@ toilet:
 toilet-paper:
   changes:
     - 5.4.0
-    - 5.10.2
   label: Toilet Paper
   search:
     terms:
       - bathroom
-      - covid-19
       - halloween
       - holiday
       - lavatory
@@ -19166,28 +18058,6 @@ toilet-paper:
   styles:
     - solid
   unicode: f71e
-  voted: false
-toilet-paper-slash:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Toilet Paper Slash
-  search:
-    terms:
-      - bathroom
-      - covid-19
-      - halloween
-      - holiday
-      - lavatory
-      - leaves
-      - prank
-      - restroom
-      - roll
-      - trouble
-      - ut oh
-  styles:
-    - solid
-  unicode: e072
   voted: false
 toolbox:
   changes:
@@ -19208,7 +18078,6 @@ toolbox:
 tools:
   changes:
     - 5.6.0
-    - 5.10.2
   label: Tools
   search:
     terms:
@@ -19244,7 +18113,6 @@ torah:
     - 5.3.0
     - 5.7.0
     - 5.9.0
-    - 5.10.2
   label: Torah
   search:
     terms:
@@ -19320,21 +18188,6 @@ traffic-light:
     - solid
   unicode: f637
   voted: false
-trailer:
-  changes:
-    - 5.12.0
-    - 5.14.0
-  label: Trailer
-  search:
-    terms:
-      - carry
-      - haul
-      - moving
-      - travel
-  styles:
-    - solid
-  unicode: e041
-  voted: true
 train:
   changes:
     - '4.3'
@@ -19381,7 +18234,6 @@ transgender-alt:
   changes:
     - '4.3'
     - 5.0.0
-    - 5.11.0
   label: Alternate Transgender
   search:
     terms:
@@ -19395,7 +18247,6 @@ trash:
     - '4.2'
     - 5.0.0
     - 5.7.0
-    - 5.10.2
   label: Trash
   search:
     terms:
@@ -19411,7 +18262,6 @@ trash-alt:
   changes:
     - 5.0.0
     - 5.7.0
-    - 5.10.2
   label: Alternate Trash
   search:
     terms:
@@ -19428,7 +18278,6 @@ trash-alt:
 trash-restore:
   changes:
     - 5.7.0
-    - 5.10.2
   label: Trash Restore
   search:
     terms:
@@ -19443,7 +18292,6 @@ trash-restore:
 trash-restore-alt:
   changes:
     - 5.7.0
-    - 5.10.2
   label: Alternative Trash Restore
   search:
     terms:
@@ -19490,8 +18338,6 @@ tripadvisor:
   changes:
     - '4.4'
     - 5.0.0
-    - 5.13.1
-    - 5.14.0
   label: TripAdvisor
   search:
     terms: []
@@ -19503,7 +18349,6 @@ trophy:
   changes:
     - '1'
     - 5.0.0
-    - 5.11.0
   label: trophy
   search:
     terms:
@@ -19591,7 +18436,6 @@ truck-pickup:
 tshirt:
   changes:
     - 5.0.13
-    - 5.10.2
   label: T-Shirt
   search:
     terms:
@@ -19646,7 +18490,6 @@ tv:
   changes:
     - '4.4'
     - 5.0.0
-    - 5.11.0
   label: Television
   search:
     terms:
@@ -19662,7 +18505,6 @@ twitch:
   changes:
     - '4.2'
     - 5.0.0
-    - 5.12.0
   label: Twitch
   search:
     terms: []
@@ -19740,15 +18582,6 @@ uikit:
     - brands
   unicode: f403
   voted: false
-umbraco:
-  changes:
-    - 5.11.0
-  label: Umbraco
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: f8e8
 umbrella:
   changes:
     - '2'
@@ -19841,22 +18674,10 @@ uniregistry:
     - brands
   unicode: f404
   voted: false
-unity:
-  changes:
-    - 5.12.0
-    - 5.14.0
-  label: Unity 3D
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e049
-  voted: true
 universal-access:
   changes:
     - '4.6'
     - 5.0.0
-    - 5.10.2
   label: Universal Access
   search:
     terms:
@@ -19874,8 +18695,6 @@ university:
     - '4.1'
     - 5.0.0
     - 5.0.3
-    - 5.11.0
-    - 5.11.1
   label: University
   search:
     terms:
@@ -19934,17 +18753,6 @@ unlock-alt:
   styles:
     - solid
   unicode: f13e
-  voted: false
-unsplash:
-  changes:
-    - 5.13.1
-    - 5.14.0
-  label: Unsplash
-  search:
-    terms: []
-  styles:
-    - brands
-  unicode: e07c
   voted: false
 untappd:
   changes:
@@ -20087,8 +18895,6 @@ user-circle:
     - 5.0.0
     - 5.0.3
     - 5.0.11
-    - 5.11.0
-    - 5.11.1
   label: User Circle
   search:
     terms:
@@ -20222,7 +19028,6 @@ user-md:
   label: Doctor
   search:
     terms:
-      - covid-19
       - job
       - medical
       - nurse
@@ -20265,11 +19070,9 @@ user-ninja:
 user-nurse:
   changes:
     - 5.7.0
-    - 5.12.0
   label: Nurse
   search:
     terms:
-      - covid-19
       - doctor
       - midwife
       - practitioner
@@ -20430,26 +19233,6 @@ users-cog:
     - solid
   unicode: f509
   voted: false
-users-slash:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Users Slash
-  search:
-    terms:
-      - disband
-      - friends
-      - group
-      - people
-      - persons
-      - profiles
-      - separate
-      - team
-      - ungroup
-  styles:
-    - solid
-  unicode: e073
-  voted: false
 usps:
   changes:
     - 5.6.0
@@ -20477,7 +19260,6 @@ ussunnah:
 utensil-spoon:
   changes:
     - 5.0.0
-    - 5.10.2
   label: Utensil Spoon
   search:
     terms:
@@ -20537,8 +19319,6 @@ venus:
   changes:
     - '4.3'
     - 5.0.0
-    - 5.11.0
-    - 5.11.1
   label: Venus
   search:
     terms:
@@ -20739,61 +19519,6 @@ vine:
   styles:
     - brands
   unicode: f1ca
-  voted: false
-virus:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Virus
-  search:
-    terms:
-      - bug
-      - covid-19
-      - flu
-      - health
-      - sick
-      - viral
-  styles:
-    - solid
-  unicode: e074
-  voted: false
-virus-slash:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Virus Slash
-  search:
-    terms:
-      - bug
-      - covid-19
-      - cure
-      - eliminate
-      - flu
-      - health
-      - sick
-      - viral
-  styles:
-    - solid
-  unicode: e075
-  voted: false
-viruses:
-  changes:
-    - 5.13.0
-    - 5.14.0
-  label: Viruses
-  search:
-    terms:
-      - bugs
-      - covid-19
-      - flu
-      - health
-      - multiply
-      - sick
-      - spread
-      - viral
-  styles:
-    - solid
-  unicode: e076
   voted: false
 vk:
   changes:
@@ -21123,7 +19848,6 @@ wheelchair:
   changes:
     - '4'
     - 5.0.0
-    - 5.10.2
   label: Wheelchair
   search:
     terms:
@@ -21150,7 +19874,6 @@ wifi:
     - 5.0.0
     - 5.3.0
     - 5.10.1
-    - 5.11.1
   label: WiFi
   search:
     terms:
@@ -21292,8 +20015,6 @@ wine-glass:
     - 5.0.9
     - 5.1.0
     - 5.10.1
-    - 5.11.0
-    - 5.11.1
   label: Wine Glass
   search:
     terms:
@@ -21312,8 +20033,6 @@ wine-glass-alt:
   changes:
     - 5.1.0
     - 5.10.1
-    - 5.11.0
-    - 5.11.1
   label: Alternate Wine Glas
   search:
     terms:
@@ -21468,7 +20187,6 @@ wrench:
 x-ray:
   changes:
     - 5.0.7
-    - 5.10.2
   label: X-Ray
   search:
     terms:
@@ -21529,7 +20247,6 @@ yahoo:
     - '4.1'
     - 5.0.0
     - 5.0.3
-    - 5.13.1
   label: Yahoo Logo
   search:
     terms: []
@@ -21606,9 +20323,6 @@ yen-sign:
 yin-yang:
   changes:
     - 5.3.0
-    - 5.10.2
-    - 5.11.0
-    - 5.11.1
   label: Yin Yang
   search:
     terms:

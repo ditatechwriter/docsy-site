@@ -100,7 +100,7 @@
                 })
                 .slice(
                     0,
-                    $targetSearchInput.data('offline-search-max-results')
+                    $targetSearchInput.data('offlnie-search-max-results')
                 );
 
             //

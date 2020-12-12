@@ -1,20 +1,25 @@
 'use strict'
 
-const path = require('path')
-const { babel } = require('@rollup/plugin-babel')
-const { nodeResolve } = require('@rollup/plugin-node-resolve')
-const banner = require('./banner.js')
+const path    = require('path')
+const babel   = require('rollup-plugin-babel')
+const resolve = require('rollup-plugin-node-resolve')
 
-const BUNDLE = process.env.BUNDLE === 'true'
+const pkg     = require(path.resolve(__dirname, '../package.json'))
+const BUNDLE  = process.env.BUNDLE === 'true'
+const year    = new Date().getFullYear()
 
-let fileDest = 'bootstrap.js'
+let fileDest  = 'bootstrap.js'
 const external = ['jquery', 'popper.js']
 const plugins = [
   babel({
-    // Only transpile our source code
-    exclude: 'node_modules/**',
-    // Include the helpers in the bundle, at most one copy of each
-    babelHelpers: 'bundled'
+    exclude: 'node_modules/**', // Only transpile our source code
+    externalHelpersWhitelist: [ // Include only required helpers
+      'defineProperties',
+      'createClass',
+      'inheritsLoose',
+      'defineProperty',
+      'objectSpread'
+    ]
   })
 ]
 const globals = {
@@ -27,13 +32,17 @@ if (BUNDLE) {
   // Remove last entry in external array to bundle Popper
   external.pop()
   delete globals['popper.js']
-  plugins.push(nodeResolve())
+  plugins.push(resolve())
 }
 
 module.exports = {
   input: path.resolve(__dirname, '../js/src/index.js'),
   output: {
-    banner,
+    banner: `/*!
+  * Bootstrap v${pkg.version} (${pkg.homepage})
+  * Copyright 2011-${year} ${pkg.author}
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+  */`,
     file: path.resolve(__dirname, `../dist/js/${fileDest}`),
     format: 'umd',
     globals,
