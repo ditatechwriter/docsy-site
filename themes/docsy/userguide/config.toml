@@ -35,8 +35,9 @@ pygmentsStyle = "tango"
 blog = "/:section/:year/:month/:day/:slug/"
 
 [outputs]
-	home = [ "HTML", "JSON" ]
-	page = [ "HTML" ]
+home = [ "HTML", "JSON" ]
+page = [ "HTML" ]
+section = [ "HTML", "RSS", "print"]
 
 ## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
 [blackfriday]
@@ -81,6 +82,11 @@ weight = 1
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+      # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
+      style = "tango"
+      # Uncomment if you want your chosen highlight style used for code blocks without a specified language
+      # guessSyntax = "true"
 
 # Everything below this are Site Params
 
@@ -129,6 +135,9 @@ algolia_docsearch = false
 offlineSearch = false
 offlineSearchSummaryLength = 70
 offlineSearchMaxResults = 10
+
+# Enable syntax highlighting and copy buttons on code blocks with Prism
+prism_syntax_highlighting = false
 
 # User interface configuration
 [params.ui]
@@ -191,3 +200,10 @@ enable = false
 	# url = "https://example.org/mail"
 	# icon = "fa fa-envelope"
         # desc = "Discuss development issues around the project"
+
+[params.mermaid]
+enable = true
+theme = "default"
+
+[params.print]
+disable_toc = false
