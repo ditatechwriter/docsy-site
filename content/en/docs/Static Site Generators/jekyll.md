@@ -13,25 +13,25 @@ Our goal is to build and publish the documentation site using Jekyll and Netlify
 
 ## Download the theme from the GitHub repo
 
-    1. Sign up for GitHub.
+1. Sign up for GitHub.
 
-        ![img](/docs/img/sign-up-GitHub.png)
+    ![img](/docs/img/sign-up-GitHub.png)
 
-    2. If you already have the account there, sign in.
+2. If you already have the account there, sign in.
 
-        ![img](/docs/img/sign-in-GitHub.png)
+    ![img](/docs/img/sign-in-GitHub.png)
 
-    3. Go to [Tom's repository](https://github.com/tomjoht/documentation-theme-jekyll).
+3. Go to [Tom's repository](https://github.com/tomjoht/documentation-theme-jekyll).
 
-        ![img](/docs/img/tom-repo.png)
+    ![img](/docs/img/tom-repo.png)
 
-    4. Click the **Code** button and select **Download ZIP**.
+4. Click the **Code** button and select **Download ZIP**.
 
-        ![img](/docs/img/download-zip.png)
+    ![img](/docs/img/download-zip.png)
 
-    5. Save the ZIP file to your computer and unzip the contents where you like. Now you have the folder with code and content. Let's proceed with building our documentation site from all this.
+5. Save the ZIP file to your computer and unzip the contents where you like. Now you have the folder with code and content. Let's proceed with building our documentation site from all this.
 
-    ---
+---
 
 ## Install Ruby on Windows
 
