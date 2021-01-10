@@ -1,7 +1,7 @@
 ---
 title: "How to install Vale on Windows"
 linkTitle: "Install Vale"
-weight: 4
+weight: 1
 description: >
   Use this instruction to install the Vale linter on Windows.
 ---
