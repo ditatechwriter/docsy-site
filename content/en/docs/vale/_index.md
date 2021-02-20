@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-This section provides step-by-step insctructions how to install and use Vale linter.
+This section provides step-by-step instructions how to install and use Vale linter.
 {{% /pageinfo %}}
 
 In these tutorials I will share my experience in installing and using Vale linter. To find more about Vale, see [Vale Documentation](https://docs.errata.ai/vale/about).
