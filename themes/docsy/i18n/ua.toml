@@ -35,6 +35,8 @@ other = "Опубліковано"
 other = "Останні зміни"
 [post_edit_this]
 other = "Редагувати цю сторінку"
+[post_create_child_page]
+other = "Створити дочірню сторінку"
 [post_create_issue]
 other = "Створити запит"
 [post_create_project_issue]
