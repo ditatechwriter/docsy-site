@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Important: This article can be useful not only for tech writers but also for all who deal with writing documentation in English: developers, QA engineers, business analysts, and others. Not all teams have tech writers. That's why these recommendations can add quality to your documentation.
+This article can be useful not only for tech writers but also for all who deal with writing documentation in English: developers, QA engineers, business analysts, and others. Not all teams have tech writers. That's why these recommendations can add quality to your documentation.
 {{% /pageinfo %}}
 
 In this article, you learn about:
@@ -38,11 +38,11 @@ See these examples from style guides.
 
 3. [Microsoft](https://docs.microsoft.com/en-us/style-guide/punctuation/commas#use-a-comma) and [Google](https://developers.google.com/style/commas#serial-commas) style guides recommend using so called 'oxofrd comma' (or serial comma) before the conjunction in a list of three or more items: *I dedicate this book to my parents, Ayn Rand, and God.*
 
-To summarize, style guides provide useful guidance for tech writers and all who want to write in accordance with the acknowledged standards for technical documentation. Knowldge of style guides is one of the competencies for a tech writer, even a beginner. Seasoned tech writers create style guides in the company where they work. However, they all are guided by the well-known style guides as their reference.
+To summarize, style guides provide useful guidance for tech writers and all who want to write in accordance with the acknowledged standards for technical documentation. Knowledge of style guides is one of the competencies for a tech writer, even a beginner. Seasoned tech writers create style guides in the company where they work. However, they all are guided by the well-known style guides as their reference.
 
 Now, when you understand what style guides tech writers use, here is the question: how to apply these recommendations in practice? Surely, you can read the Microsoft Manual of Style as a book: memorize and take notes of the most useful recommendations. However, this is a long way: the printed Manual of Style is almost 500 pages. And don't forget that Google has its own style guide. Experienced tech writers know the most important recommendations by heart. However, even they make mistakes or don't see them in the texts when editing as we're all just people.
 
-Luckily, we've the tools that automate checking texts for their compliance with the recommendations in the style guides from Microsoft and Google. The Vale linter is one of these tools.
+Luckily, we have the tools that automate checking texts for their compliance with the recommendations in the style guides from Microsoft and Google. The Vale linter is one of these tools.
 
 ## What are linters?
 
@@ -60,7 +60,7 @@ How does it work?
 
 ### Prerequisites
 
-1. You have texts written in the Markdown format .md. Vale also supports HTML, reStructuredText, AsciiDoc, DITA, XML. For more information, see Vale-[supported formats](https://docs.errata.ai/vale/scoping#formats).
+1. You have texts written in the Markdown `.md` format . Vale also supports HTML, reStructuredText, AsciiDoc, DITA, XML. For more information, see [Vale-supported formats](https://docs.errata.ai/vale/scoping#formats).
 
 2. You need to check if your texts in Markdown files meet the requirements of style guides: Microsoft,  Google.
 
@@ -78,101 +78,100 @@ How does it work?
 
 ### Using Vale
 
-Let's check some file in Markdown. I copied one Markdown file to the test-vale folder — **jekyll.md**. This is my [article](https://docsy-site.netlify.app/docs/static-site-generators/jekyll/) про генератор статичних файлів Jekyll. Я хочу перевірити, наскільки в цій статті я дотримувався рекомендацій стайлгайдів Майкрософт і Гугл. Ну що, поїхали?
+Let's check some file in Markdown. I copied one Markdown file to the test-vale folder — **jekyll.md**. This is my [article](https://docsy-site.netlify.app/docs/static-site-generators/jekyll/) Jekyll static site generator. I want to check if my article meets the requirements of the style guides by Microsoft and Google. Ready? Let's do it.
 
-Можна скористатися командним рядком, але там не так красиво підсвічуються помилки та зауваження стайлгайдів.
+You can use the command prompt but it doesn't have this nice-looking highlighting for errors and warning from the style guides.
 
 ![img](/docs/img/vale-cmd.png)
 
-Я використовую редактор коду VSCode для написання та редагування статей у форматі Markdown. У VSCode процес перевірки виглядає набагато краще.
+I use for writing and editing articles in the Markdown format. In VSCode, the linting process looks much nicer.
 
-1. У VSCode відкрийте папку проекта.
+1. In VSCode, open your project directory.
 
-2. У терміналі VSCode введіть:
+2. In the VSCode terminal enter:
 
 ```sh
 vale filename.md
 ```
 
-де `filename.md` — ваш файл у форматі Markdown, який потрібно перевірити.
+where `filename.md` is your Markdown file for checking.
 
 ![img](/docs/img/vale-jekyll.png)
 
-Як бачимо, у терміналі VSCode виводяться попередження (warning) жовтим кольором і помилки (error) червоним. Також указані рядки, у яких знайдено помилки. Наприклад, в 11-му рядку (11:1) я вжив займенник our (*Our goal is…*). Написання від першої особи множини (*we, our, us, let’s*) — це не помилка, але й не рекомендується відповідно до стайлгайдів [Майкрософт](https://docs.microsoft.com/en-us/style-guide/grammar/person#avoid-first-person-plural) і [Гугл](https://developers.google.com/style/pronouns#personal-pronouns). Натомість стайлгайди рекомендують використовувати другу особу (*you, your*): *Your goal is…*
+As you see, the VSCode terminal has warnings in yellow and errors in red. Vale indicates the lines with the warnings and errors. For example, I used a personal pronoun our (*Our goal is…*) in the 11th line (11:1). Writing first-person plural (*we, our, us, let’s*) isn't a mistake but isn't recommended either according to the style guides by [MIcrosoft](https://docs.microsoft.com/en-us/style-guide/grammar/person#avoid-first-person-plural) and [Google](https://developers.google.com/style/pronouns#personal-pronouns). Instead these style guides recommend using the second-person plural (*you, your*): *Your goal is…*
 
-Звісно, що вирішувати вам: дослухатися до рекомендацій стайлгайдів або писати, як вважаєте за краще самі. Іноді трапляються *false positives* — хибні спрацьовування, коли помилки немає. Однак головна мета цієї перевірки — привернути вашу увагу до потенційної проблеми. Наведу ще один приклад, де вже не попередження, а червона помилка.
-
+Certainly, it's up to you: honor the style guide recommendations or write as you think best. Sometimes the Vale linter produces *false positives* when there's no mistake. However, the main purpose of linting is to draw your attention to the potential issue. Another example shows not a warning but a red error.
 ![img](/docs/img/vale-terminal.png)
 
-Тут у 54-му рядку я написав: *… let's assume that we have Ruby installed.* Майкрософт [рекомендує](https://docs.microsoft.com/en-us/style-guide/word-choice/use-contractions) писати скорочення *we’ve* замість *we have*.
+In the 54th line, I write: *… let's assume that we have Ruby installed.* Microsoft [recommends](https://docs.microsoft.com/en-us/style-guide/word-choice/use-contractions) using contractions *we’ve* instead of *we have*.
 
-### Розширення Vale для VSCode
+### Vale extension for VSCode
 
-Замість того, щоб вводити в терміналі VSCode команду `vale filename.md` щоразу, коли вам потрібно перевірити файл у форматі Markdown на відповідність вимогам стайлгайдів, установіть розширення (extension) Vale для VSCode.
+Instead of entering `vale filename.md` in the VSCode terminal every time when you need to lint the Markdown file, install the Vale extension for VSCode.
 
-1. У розділі розширень VSCode знайдіть і установіть розширення Vale.
+1. In the VSCode Extensions menu find and install the Vale extension.
 
-2. Налаштуйте конфігурацію розширення:
+2. Configure this extension:
 
-    a. Виберіть **Use Vale’s CLI instead of Vale Server**.
+    a. Select **Use Vale’s CLI instead of Vale Server**.
 
-    b. Введіть шлях до папки проекта, де лежить файл **.vale.ini**. У моєму випадку це: `c:\Users\ivanc\test-vale`.
+    b. Specify the path to the project directory with the **.vale.ini** file. In my case, it's: `c:\Users\ivanc\test-vale`.
 
-    c. У **Vale CLI: Path** введіть `vale`.
+    c. Enter `vale` for **Vale CLI: Path**.
 
     ![img](/docs/img/vale-extension-config.png)
 
 
-Тепер Vale буде перевіряти всі файли у форматі Markdown, які ви відкриваєте в редакторі VSCode. Розширення буде посилатися на папку **styles** і файл конфігурації **.vale.ini**, але тепер не треба копіювати ці файли до будь-якого проекта з файлами Markdown для перевірки.
+Now Vale checks all Markdown files that you open in VSCode. The extension links to the **styles** directory and the **.vale.ini** config file. You don't have to copy these files to any project with Markdown files for linting.
 
-Сама перевірка буде здійснюватись автоматично, коли ви відкриєте будь-який файл Markdown у VSCode. Vale буде підкреслювати слова, у яких знайдено проблеми. Ви можете навести курсор на це підкреслення або перейти на вкладку PROBLEMS у терміналі VSCode.
+The linting itself runs automatically when you open any Markdown file in VSCode. Vale underlines the words or sentences with problems. You can hover over the underlined text or go to the PROBLEMS tab in the VSCode terminal.
 
 ![img](/docs/img/vale-problems.png)
 
-Можна також переглянути правило відповідного стайлгайда, якщо вибрати **View rule**. Відкриється файл у форматі YML, що лежить у папці відповідного стайлгайда в папці **styles**. У файлі є посилання на це правило в стайлгайді.
+You can also view the rule of the style guide. Select **View rule** to open the YML file. This file is in the folder of the respective style guide in the **styles** folder. The YML file has the link to the rule in the style guide.
 
 ![img](/docs/img/vale-rule.png)
 
-### Створення власного стайлгайда
+### Create your own style guide
 
-Отже, ми з’ясували, що можемо перевіряти тексти на відповідність стайлгайдам Майкрософт і Гугл. А як щодо власних стайлгайдів? Це також можливо. Можна створювати власні правила та регулярні вирази. Як зразок можете використати існуючі YML-файли правил зі стайлгайдів Майкрософт, Гугл тощо.
+Now, you know how to check if your texts meet the requirements of style guides by Microsoft and Google. What about your own style guide? It's also possible. You can create your own rules and regular expressions. As a template, you can use the existing rules' YML files from Microsoft and Google style guides.
 
-Щоб створити власне правило:
+To add your own rule:
 
-1. Створіть папку з назвою вашого власного стайлгайда. Наприклад, **my-styleguide**.
+1. Create a directory with the name of your own style guide. For example, **my-styleguide**.
 
-2. Покладіть папку **my-styleguide** до папки **styles** з усіма іншими стайлгайдами.
+2. Copy the **my-styleguide** directory to the **styles** directory that has all your other style guides.
 
-3. Відкрийте файл конфігурації **.vale.ini** у Блокноті.
+3. Open the **.vale.ini** configuration file in Notepad.
 
-4. Додайте назву папки свого стайлгайда **my-styleguide** до переліку стайлгайдів.
+4. Add your **my-styleguide** filename to the list of style guides.
 
     ![img](/docs/img/vale-ini.png)
 
-5. Збережіть файл конфігурації **.vale.ini** у Блокноті.
+5. Save the changes.
 
-6. У папці вашого стайлгайда створіть YML-файл правила з такою конфігурацією.
+6. Add your rule YML file to your style guide directory with this configuration.
 
     ![img](/docs/img/rule-1.png)
 
-7. Збережіть його з назвою, наприклад, **rule-1.yml**.
+7. Save it with the name. For example, **rule-1.yml**.
 
     ![img](/docs/img/vale-rule-1.png)
 
-    Тут ми створюємо правило, щоб Vale нам видавав попередження, якщо написано *web-site* замість *website*, *dou* замість *DOU* та *e-mail* замість *email* незалежно від регістру (великими чи малими літерами).
+    We've created a rule where Vale shows warnings when you write *web-site* instead of *website*, *dou* instead of *DOU*, and *e-mail* instead of *email* regardless of the case (upper or lower case).
 
-8. Відкриваємо наш файл Markdown у VSCode.
+8. Open your Markdown file in VSCode.
 
     ![img](/docs/img/vale-check.png)
 
-    Бачимо, що правило нашого стайлгайда спрацювало: Vale видав усі попередження щодо неправильного написання *web-site*, *e-mail* та *dou*.
+    You see that your style guide rule works: Vale shows warnings for all the cases when you write *web-site*, *e-mail*, and *dou*.
 
-## Що далі?
+## What's next?
 
-Усі перевірки, що я навів у попередніх розділах стосуються локальних файлів у форматі Markdown. Лінтер Vale, як і лінтери для коду, можна вбудувати в пайплайн CI/CD, щоб під час кожного коміту та пушу (збереження та передача локальних змін на сервер за допомогою git) відбувалася перевірка лінтером Vale. За наявності помилок ви не зможете передати зміни на сервер. Пайплайн CI/CD можна налаштувати для GitHub, GitLab. Особисто я цього не роблю і перевіряю свої файли локально. Однак знаю, що так працюють техрайтерські команди, що пишуть документацію для [GitLab](https://docs.gitlab.com/ee/development/documentation/testing.html#vale), [Spotify](https://github.com/backstage/backstage) та інших продуктів.
+All the checks that I've discussed in the previous sections are for local Markdown files on your computer. You can use the Vale linter as part of your CI/CD pipeline as you do with the code linters. Then Vale will lint your text every time when you commit and push changes to git. If there are errors, you won't be able to push your changes to git. You can configure your CI/CD pipeline for GitHub, GitLab. I don't use Vale for the CI/CD pipeline and prefer checking files locally. However, I know that this is the way how tech writers work in [GitLab](https://docs.gitlab.com/ee/development/documentation/testing.html#vale), [Spotify](https://github.com/backstage/backstage), and at other companies.
 
-До речі, можете зайти в їхні відкриті репозиторії та подивитися конфігурацію перевірок за допомогою лінтера Vale. Крім того, ви можете додати додаткові стайлгайди до моєї конфігурації. Ось перелік доступних репозиторіїв з [офіційно підтримуваними стайлгайдами](https://github.com/errata-ai/styles#available-styles), з яких я брав стайлгайди Майкрософт і Гугл. Переходите за посиланнями до репозиторія і завантажуєте звідти папку з правилами. Наприклад, [цю папку для стайлгайда Joblint](https://github.com/errata-ai/Joblint/tree/master/Joblint). У цьому стайлгайді правила, за якими Vale перевіряє текст описів вакансій на наявність сексизмів, культурних ляпів, рекрутерських фейлів тощо.
+By the way, you can access their open source repositories and view their configuration for linting with Vale. You can add more style guides to my configuration in the vale.ini file. Here's the list of available repositories with [officially supported style guides](https://github.com/errata-ai/styles#available-styles). I took the Microsoft and Google style guides from there. Follow the link and download the folder with rules. For example, [this folder for Joblint style guide](https://github.com/errata-ai/Joblint/tree/master/Joblint). This style guide has the rules for Vale to check the text in the job descriptions: if they have sexism, cultural blunders, recruiter fails, etc.
 
-Ще одна цікава можливість експериментувати зі створенням правил для Vale — їхній сайт [Vale Studio](https://vale-studio.errata.ai/). Тут можна задати правила та регулярні вирази, а також відразу подивитися результат, як відпрацює правило.
+Another interesting feature is to experiment with creating the rules in [Vale Studio](https://vale-studio.errata.ai/). You can add your own rules and regular expressions to view the immediate result of how this rule works.
 
-Сподіваюся, що ця стаття допоможе вам автоматизувати перевірку документації на відповідність вимогам стайлгайдів, а також створити власні правила для перевірки лінтером Vale. Пам’ятайте, що людині властиво помилятися, а такі засоби перевірки як Vale допомагають усунути людський фактор.
+Hope this article helps you automate your document tests and check if they're in line with the recommendations of style guides. Create your own style guides and rules for linting with Vale. Remember that humans are prone to mistakes while such linters as Vale help avoid the human factor.
