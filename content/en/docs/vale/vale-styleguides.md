@@ -3,7 +3,7 @@ title: "Style guides, linters, and Vale: Why do tech writers need this?"
 linkTitle: "Style guides, linters, and Vale"
 weight: 3
 description: >
-  Read about the style guides the tech writers use in their work and why it's important. Also, read about the linter for tech writers. Configure the Vale linter for checking how your texts comply with the recommendations in the style guides of Google and Microsoft. As a bonus, lean how to create your own style guide for Vale.
+  Read about the style guides the tech writers use in their work and why it's important. Also, read about the linter for tech writers. Configure the Vale linter for checking how your texts comply with the recommendations in the style guides of Google and Microsoft. As a bonus, learn how to create your own style guide for Vale.
 ---
 
 {{% pageinfo %}}
@@ -22,7 +22,7 @@ In this article, you learn about:
 
 ---
 
-## What is style guide?
+## What is a style guide?
 
 Style guide is a set of recommendations about styles, usage of specific words, phrases, terms. It's a written agreement for consistent writing and look of your documentation. Style guides are *a single source of truth* when different people have their own vision on using certain words in the text or about the formatting of documentation.
 
@@ -36,11 +36,11 @@ See these examples from style guides.
 
 2. According to the style guides by [Microsoft](https://docs.microsoft.com/en-us/style-guide/capitalization#sentence-style-capitalization-in-titles-and-headings) and [Google](https://developers.google.com/style/capitalization#capitalization-in-titles-and-headings), if a title or heading includes a colon, you should capitalize the first word after it. For example, the title of this article is *Style guides, linters, and Vale: Why do tech writers need this?*
 
-3. [Microsoft](https://docs.microsoft.com/en-us/style-guide/punctuation/commas#use-a-comma) and [Google](https://developers.google.com/style/commas#serial-commas) style guides recommend using so called 'oxofrd comma' (or serial comma) before the conjunction in a list of three or more items: *I dedicate this book to my parents, Ayn Rand, and God.*
+3. [Microsoft](https://docs.microsoft.com/en-us/style-guide/punctuation/commas#use-a-comma) and [Google](https://developers.google.com/style/commas#serial-commas) style guides recommend using so-called 'oxford comma' (or serial comma) before the conjunction in a list of three or more items: *I dedicate this book to my parents, Ayn Rand, and God.*
 
 To summarize, style guides provide useful guidance for tech writers and all who want to write in accordance with the acknowledged standards for technical documentation. Knowledge of style guides is one of the competencies for a tech writer, even a beginner. Seasoned tech writers create style guides in the company where they work. However, they all are guided by the well-known style guides as their reference.
 
-Now, when you understand what style guides tech writers use, here is the question: how to apply these recommendations in practice? Surely, you can read the Microsoft Manual of Style as a book: memorize and take notes of the most useful recommendations. However, this is a long way: the printed Manual of Style is almost 500 pages. And don't forget that Google has its own style guide. Experienced tech writers know the most important recommendations by heart. However, even they make mistakes or don't see them in the texts when editing as we're all just people.
+Now, when you understand what style guides tech writers use, here is the question: how to apply these recommendations in practice? Surely, you can read the Microsoft Manual of Style as a book: memorize and take notes of the most useful recommendations. This is a long way: the printed Manual of Style is almost 500 pages. And don't forget that Google has its own style guide. Experienced tech writers know the most important recommendations by heart. Even they make mistakes or don't see them in the texts when editing, as we're all just people.
 
 Luckily, we have the tools that automate checking texts for their compliance with the recommendations in the style guides from Microsoft and Google. The Vale linter is one of these tools.
 
@@ -78,13 +78,13 @@ How does it work?
 
 ### Using Vale
 
-Let's check some file in Markdown. I copied one Markdown file to the test-vale folder — **jekyll.md**. This is my [article](https://docsy-site.netlify.app/docs/static-site-generators/jekyll/) Jekyll static site generator. I want to check if my article meets the requirements of the style guides by Microsoft and Google. Ready? Let's do it.
+Let's check some file in Markdown. I copied one Markdown file to the test-vale folder — **jekyll.md**. This is my [article](https://docsy-site.netlify.app/docs/static-site-generators/jekyll/) about Jekyll static site generator. I want to check if my article meets the requirements of the style guides by Microsoft and Google.
 
 You can use the command prompt but it doesn't have this nice-looking highlighting for errors and warning from the style guides.
 
 ![img](/docs/img/vale-cmd.png)
 
-I use for writing and editing articles in the Markdown format. In VSCode, the linting process looks much nicer.
+I use VSCode editor for writing and editing articles in the Markdown format. In VSCode, the linting process looks much nicer.
 
 1. In VSCode, open your project directory.
 
@@ -98,7 +98,7 @@ where `filename.md` is your Markdown file for checking.
 
 ![img](/docs/img/vale-jekyll.png)
 
-As you see, the VSCode terminal has warnings in yellow and errors in red. Vale indicates the lines with the warnings and errors. For example, I used a personal pronoun our (*Our goal is…*) in the 11th line (11:1). Writing first-person plural (*we, our, us, let’s*) isn't a mistake but isn't recommended either according to the style guides by [MIcrosoft](https://docs.microsoft.com/en-us/style-guide/grammar/person#avoid-first-person-plural) and [Google](https://developers.google.com/style/pronouns#personal-pronouns). Instead these style guides recommend using the second-person plural (*you, your*): *Your goal is…*
+As you see, the VSCode terminal has warnings in yellow and errors in red. Vale indicates the lines with the warnings and errors. For example, I used a personal pronoun our (*Our goal is…*) in the 11th line (11:1). Writing first-person plural (*we, our, us, let’s*) isn't a mistake but isn't recommended either according to the style guides by [Microsoft](https://docs.microsoft.com/en-us/style-guide/grammar/person#avoid-first-person-plural) and [Google](https://developers.google.com/style/pronouns#personal-pronouns). Instead these style guides recommend using the second-person plural (*you, your*): *Your goal is…*
 
 Certainly, it's up to you: honor the style guide recommendations or write as you think best. Sometimes the Vale linter produces *false positives* when there's no mistake. However, the main purpose of linting is to draw your attention to the potential issue. Another example shows not a warning but a red error.
 ![img](/docs/img/vale-terminal.png)
