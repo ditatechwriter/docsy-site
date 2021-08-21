@@ -177,7 +177,7 @@ To upload your project folder to GitHub:
 
 ---
 
-## Deploy to Vercel
+### Deploy to Vercel
 
 To publish your site online, you need to deploy it to Vercel.
 

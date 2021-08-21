@@ -1,5 +1,5 @@
 ---
-title: "Hugo API documentation site"
+title: "Hugo API site"
 linkTitle: "Hugo API documentation site"
 weight: 5
 description: >
