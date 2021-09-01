@@ -66,7 +66,7 @@ To clone your GitHub repository:
 
     ![Copy GitHub project link](/docs/img/copy-repo-https.png)
 
-3. Open VSCode and click <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd>.
+3. Open VSCode and click <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>.
 
 4. Enter `Git: Clone` and press ENTER.
 
