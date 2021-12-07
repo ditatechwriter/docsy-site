@@ -1,7 +1,7 @@
 ---
 title: "Style guides, linters, and Vale: Why do tech writers need this?"
 linkTitle: "Style guides, linters, and Vale"
-weight: 3
+weight: 4
 description: >
   Read about the style guides the tech writers use in their work and why it's important. Also, read about the linter for tech writers. Configure the Vale linter for checking how your texts comply with the recommendations in the style guides of Google and Microsoft. As a bonus, learn how to create your own style guide for Vale.
 ---

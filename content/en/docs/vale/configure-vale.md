@@ -1,7 +1,7 @@
 ---
 title: "How to configure Vale for GitHub repository"
 linkTitle: "Configure Vale"
-weight: 2
+weight: 3
 description: >
   Use this instruction to configure Vale for GitHub repository. You learn how to add the files required for Vale to run the checks on your Markdown files.
 ---
