@@ -4,7 +4,6 @@ link: https://docs.microsoft.com/en-us/style-guide/word-choice/use-us-spelling-a
 ignorecase: true
 level: error
 nonword: true
-
 action:
   name: replace
 swap:
