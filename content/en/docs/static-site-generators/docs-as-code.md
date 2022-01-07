@@ -48,11 +48,11 @@ An experienced Google tech writer Tom Johnson [writes](https://idratherbewriting
 
 * **Manage docs using processes similar to engineers (Scrum, Agile, Kanban).** Like developers, tech writers work in sprints (sprint is a period that usually lasts one month, during which developers deliver part of the developed functionality to demo to the customer the work done). Tech writers use Jira or other task tracker and perform appropriate Scrum ceremonies (daily standup, Sprint Planning, Retro , etc.). Often tech writers link their tasks of documenting features to the tasks of developers.
 
-So, we found that the process of developing a site with documentation is generally similar to the process of developing code. Next, we install the necessary *docs-as-code* tools in practice, generate a site with documentation and publish it on the Internet.
+The process of developing a documentation site is generally similar to the process of developing code. Next, we install the necessary *docs-as-code* tools in practice, generate a documentation site and publish it on the Internet.
 
 ## Docusaurus static site generator
 
-Why did I choose [Docusaurus](https://docusaurus.io/docs) as the static site generator (SSG) for the documentation site? Although my favorite site generator is Hugo, which I use for my own pet project (this site), configuring such a site, although well described in the documentation, is time consuming. Instead, you can upload a site to Docusaurus very quickly—in just a few minutes you can have a local site with documentation and start writing there in the Markdown files. Of course, it'll take a little longer to configure the CI/CD pipeline and customize the CSS for your own color schemes, fonts, images, etc., and then publish the site online. But not much more.
+Why did I choose [Docusaurus](https://docusaurus.io/docs) as the static site generator (SSG) for the documentation site? Although my favorite site generator is Hugo, which I use for my own pet project (this site), configuring such a site, although well described in the documentation, is time consuming. Instead, you can configure a Docusaurus-built site very quickly—in just a few minutes you can have a local documentation site and start writing there in the Markdown files. Of course, it'll take a little longer to configure the CI/CD pipeline and customize the CSS for your own color schemes, fonts, images, etc., and then publish the site online. But not much more.
 
 To install and run Docusaurus:
 
