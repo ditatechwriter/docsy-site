@@ -88,7 +88,7 @@ To install and run Docusaurus:
 
     The site with the documentation opens in the browser: [http://localhost:3000/](http://localhost:3000/).
 
-    ![img](/docs/img/docusaurus-site.png)
+    ![img](/docs/img/docusaurus-site.webp)
 
 ## Adjust the appearance of the site
 
@@ -110,7 +110,7 @@ To change the site name:
 
 2. Select the `docusaurus.config.js` file.
 
-    ![img](/docs/img/docusaurus-config.png)
+    ![img](/docs/img/docusaurus-config.webp)
 
 3. Change the site name `title: 'My Site'` to your own. For example: `Documentation site`.
 
@@ -118,7 +118,7 @@ To change the site name:
 
 4. In the same file below, change the site name `title: 'My Site'` in the navigation menu.
 
-    ![img](/docs/img/navbar.png)
+    ![img](/docs/img/navbar.webp)
 
 To change the logo image (dinosaur):
 
@@ -144,21 +144,21 @@ To change the text on the home page of the site:
 
 3. If you don't need a blog on the documentation site, comment out (`//`) the line so that it doesn't appear in the navigation menu.
 
-    ![img](/docs/img/comment-out.png)
+    ![img](/docs/img/comment-out.webp)
 
 4. Rename the documentation section of the site `label` from `Tutorial` to `Docs`.
 
 5. In VS Code, select the `my-site\src\components\HomepageFeatures.js` file and change the text and image features on the home page.
 
-    ![img](/docs/img/homepage-features.png)
+    ![img](/docs/img/homepage-features.webp)
 
 6. In VS Code, select the `my-site\src\pages\index.js` file to change the label on the button from `Docusaurus Tutorial - 5min` to `Start here`.
 
-    ![img](/docs/img/action-button.png)
+    ![img](/docs/img/action-button.webp)
 
     After all these changes, the home page will look like this.
 
-    ![img](/docs/img/start-page.png)
+    ![img](/docs/img/start-page.webp)
 
 ## Create and edit documentation articles
 
@@ -166,7 +166,7 @@ After customizing the home page of the site with the documentation, you can star
 
 This is a sample documentation in the Docusaurus template.
 
-![img](/docs/img/default-intro.png)
+![img](/docs/img/default-intro.webp)
 
 ### Location of documentation articles
 
@@ -274,11 +274,11 @@ Now you can publish your site with documentation using the Netlify service. It's
 
 3. Select **New site from Git**.
 
-    ![img](/docs/img/new-site.png)
+    ![img](/docs/img/new-site.webp)
 
 4. Select **GitHub**.
 
-    ![img](/docs/img/github.png)
+    ![img](/docs/img/github.webp)
 
 5. Authorize Netlify to access your GitHub repository and select a repository with your site.
 
