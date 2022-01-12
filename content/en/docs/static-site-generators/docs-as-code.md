@@ -172,7 +172,7 @@ This is a sample documentation in the Docusaurus template.
 
 All documentation in Docusaurus is contained in the form of Markdown files in a folder: `c:\Users\Ivan_Cheban\my-docusaurus-projects\my-site\docs\`.
 
-![img](/docs/img/docs-folder.png)
+![img](/docs/img/docs-folder.webp)
 
 ### Order of articles in the documentation section
 
@@ -180,13 +180,13 @@ The first article **Tutorial Intro** is the `intro.md` file. Its location in the
 
 To change the hierarchical location of the article in the sidebar, change the value of the `sidebar_position` parameter. For example, to move to the end of this article: `sidebar_position: 4`.
 
-![img](/docs/img/sidebar-position.png)
+![img](/docs/img/sidebar-position.webp)
 
 To open another article after going from the home page, change the path to the desired article in the `my-site\src\pages\index.js` file.
 
 For example, we'll show first the **Create a Page** article in the `c:\Users\Ivan_Cheban\my-docusaurus-projects\my-site\docs\tutorial-basics\create-a-page.md` file. To do this, change the value of the `to` parameter from `/docs/intro` to `/docs/tutorial-basics/create-a-page`.
 
-![img](/docs/img/first-page.png)
+![img](/docs/img/first-page.webp)
 
 ### Subsections in the documentation section
 
@@ -202,11 +202,11 @@ Next, rename the Markdown files in the `my-docs` folder.
 
 To define the order of the sections with documentation articles, change the `position` parameter in the `C:\Users\Ivan_Cheban\my-docusaurus-projects\my-site\docs\tutorial-basics\_category_.json` file. For example. change the order of `tutorial-basics` and `tutorial-extras` sections. To do this, change 3 to 2 for `tutorial-basics` and 2 to 3 for `tutorial-extras`.
 
-![img](/docs/img/category-json.png)
+![img](/docs/img/category-json.webp)
 
 The order of these sections changes in the sidebar.
 
-![img](/docs/img/changed-sections.png)
+![img](/docs/img/changed-sections.webp)
 
 The article hierarchy within a section is changed using the `sidebar_postion` parameter, as described in [Hierarchy of articles in the documentation section](./#order-of-articles-in-the-documentation-section).
 
@@ -238,13 +238,13 @@ First, link the local documentation project folder to the GitHub repository:
 
 3. Select **Publish to GitHub**.
 
-    ![img](/docs/img/publish-github.png)
+    ![img](/docs/img/publish-github.webp)
 
 4. Select **Publish to GitHub public repository**.
 
 5. Wait for your project to be published and select **Open on GitHub** to go to the created repository in GitHub.
 
-    ![img](/docs/img/github-my-site.png)
+    ![img](/docs/img/github-my-site.webp)
 
 Your local project is now synced to the GitHub repository. All changes you make locally you need to synchronize with the git repository manually.
 
@@ -254,7 +254,7 @@ After you make all the necessary changes in your documentation:
 
 2. Enter or select **Git: Commit All**.
 
-    ![img](/docs/img/commit-all.png)
+    ![img](/docs/img/commit-all.webp)
 
 3. Enter the message you changed.
 
@@ -282,21 +282,21 @@ Now you can publish your site with documentation using the Netlify service. It's
 
 5. Authorize Netlify to access your GitHub repository and select a repository with your site.
 
-    ![img](/docs/img/import-github.png)
+    ![img](/docs/img/import-github.webp)
 
 6. Select **Deploy site**.
 
-    ![img](/docs/img/deploy-netlify.png)
+    ![img](/docs/img/deploy-netlify.webp)
 
 7. Wait till your site is published (deploy).
 
 8. AS the site is published with a random name—such as `inspiring-benz-dc91fd`—change the site name to something more meaningful in the **Site settings**.
 
-    ![img](/docs/img/site-settings-netlify.png)
+    ![img](/docs/img/site-settings-netlify.webp)
 
 9. Select **Change site name** and enter your name.
 
-    ![img](/docs/img/change-site-name-netlify.png)
+    ![img](/docs/img/change-site-name-netlify.webp)
 
     I entered `ivan-documentation-example`.
 
